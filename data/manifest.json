@@ -1,0 +1,19 @@
+{
+  "generated_at_utc": "2026-09-20T11:41:18.803Z",
+  "seed": 20250901,
+  "reporting_period": {
+    "start": "2025-01-01",
+    "end": "2025-12-31"
+  },
+  "synthetic_data": true,
+  "row_counts": {
+    "stores": 5,
+    "products": 40,
+    "customers": 902,
+    "promotions": 14,
+    "transactions": 12002,
+    "transaction_items": 37270,
+    "inventory_weekly": 10600,
+    "monthly_targets": 60
+  }
+}

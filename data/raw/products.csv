@@ -1,0 +1,41 @@
+product_id,sku,product_name,category,subcategory,brand_type,supplier_id,unit_cost_eur,list_price_eur,perishable_flag
+PR001,SKU-31001,Pasta di semola 500g,Pantry,Pasta & Rice,National,SUP01,0.62,1.19,N
+PR002,SKU-31002,Riso Arborio 1kg,Pantry,Pasta & Rice,National,SUP01,1.55,2.89,N
+PR003,SKU-31003,Passata di pomodoro 700g,Pantry,Sauces,Private Label,SUP01,0.58,1.09,N
+PR004,SKU-31004,Olio extra vergine 1L,Pantry,Oil,National,SUP02,5.65,8.49,N
+PR005,SKU-31005,Tonno in scatola 3x80g,Pantry,Canned Food,National,SUP02,2.15,3.99,N
+PR006,SKU-31006,Farina tipo 00 1kg,Pantry,Baking,Private Label,SUP01,0.52,0.99,N
+PR007,SKU-31007,Pane casereccio,Bakery,Fresh Bread,Private Label,SUP03,1.12,2.39,Y
+PR008,SKU-31008,Filone di semola,Bakery ,Fresh Bread,Private Label,SUP03,0.88,1.99,Y
+PR009,SKU-31009,Cornetto crema,Bakery,Pastry,Private Label,SUP03,0.49,1.1,Y
+PR010,SKU-31010,Focaccia rosmarino,Bakery,Savory Bakery,Private Label,SUP03,0.91,2.2,Y
+PR011,SKU-31011,Latte intero 1L,Dairy,Milk,Private Label,SUP04,0.79,1.39,Y
+PR012,SKU-31012,Yogurt bianco 2x125g,Dairy,Yogurt,National,SUP04,0.74,1.49,Y
+PR013,SKU-31013,Mozzarella 125g,Dairy,Cheese,Private Label,SUP04,0.72,1.39,Y
+PR014,SKU-31014,Parmigiano Reggiano 200g,Dairy,Cheese,National,SUP04,2.95,4.79,Y
+PR015,SKU-31015,Burro 250g,Dairy,Butter,National,SUP04,1.36,2.35,Y
+PR016,SKU-31016,Arance Sicilia 1kg,Fresh Produce,Fruit,Local,SUP05,0.86,1.69,Y
+PR017,SKU-31017,Pomodoro ciliegino 500g,Fresh Produce,Vegetables,Local,SUP05,1.12,2.39,Y
+PR018,SKU-31018,Zucchine 1kg,fresh produce,Vegetables,Local,SUP05,1.08,2.19,Y
+PR019,SKU-31019,Banane 1kg,Fresh Produce,Fruit,National,SUP05,0.98,1.79,Y
+PR020,SKU-31020,Insalata mista 200g,Fresh Produce,Ready Vegetables,Private Label,SUP05,0.88,1.69,Y
+PR021,SKU-31021,Petto di pollo 500g,Meat & Seafood,Poultry,National,SUP06,3.35,5.79,Y
+PR022,SKU-31022,Salsiccia siciliana 400g,Meat & Seafood,Pork,Local,SUP06,2.78,4.99,Y
+PR023,SKU-31023,Orata fresca 400g,Meat & Seafood,Fish,Local,SUP06,4.85,7.99,Y
+PR024,SKU-31024,Prosciutto cotto 150g,Meat & Seafood,Deli,National,SUP06,1.62,2.99,Y
+PR025,SKU-31025,Acqua minerale 6x1.5L,Beverages,Water,Private Label,SUP07,1.08,1.89,N
+PR026,SKU-31026,Cola 1.5L,Beverages,Soft Drinks,National,SUP07,0.94,1.89,N
+PR027,SKU-31027,Succo arancia 1L,Beverages,Juice,Private Label,SUP07,0.82,1.59,N
+PR028,SKU-31028,Birra bionda 3x330ml,Beverages,Beer,National,SUP07,1.75,3.49,N
+PR029,SKU-31029,Vino rosso Sicilia DOC,Beverages,Wine,Local,SUP07,3.15,5.99,N
+PR030,SKU-31030,Detersivo lavatrice 30 lavaggi,Household,Laundry,National,SUP08,3.85,6.99,N
+PR031,SKU-31031,Carta cucina 3 rotoli,Household,Paper,Private Label,SUP08,1.38,2.69,N
+PR032,SKU-31032,Detergente pavimenti 1L,Household,Cleaning,Private Label,SUP08,1.04,1.99,N
+PR033,SKU-31033,Sacchi spazzatura 20pz,Household,Cleaning,Private Label,SUP08,0.93,1.89,N
+PR034,SKU-31034,Spugne cucina 3pz,Household,Cleaning,Private Label,SUP08,0.71,1.49,N
+PR035,SKU-31035,Shampoo delicato 250ml,Personal Care,Hair Care,National,SUP09,1.88,3.69,N
+PR036,SKU-31036,Dentifricio 75ml,Personal Care,Oral Care,national,SUP09,1.22,2.49,N
+PR037,SKU-31037,Sapone mani 500ml,Personal Care,Body Care,Private Label,SUP09,0.84,1.69,N
+PR038,SKU-31038,Carta igienica 8 rotoli,Personal Care,Paper,Private Label,SUP09,2.38,4.39,N
+PR039,SKU-31039,Biscotti integrali 350g,Snacks,Biscuits,National,SUP10,1.18,2.29,N
+PR040,SKU-31040,Cioccolato fondente 100g,Snacks,Chocolate,National,SUP10,0.82,1.69,N

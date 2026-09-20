@@ -1,0 +1,15 @@
+promotion_id,promotion_name,start_date,end_date,scope_type,scope_value,planned_discount_pct,campaign_channel
+PROMO001,Gennaio Dispensa,2025-01-10,2025-01-26,CATEGORY,Pantry,0.15,Flyer
+PROMO002,San Valentino Dolci,2025-02-08,2025-02-16,CATEGORY,Snacks,0.2,App
+PROMO003,Freschezza di Primavera,2025-03-14,2025-03-30,CATEGORY,Fresh Produce,0.12,In-store
+PROMO004,Pasqua in Tavola,2025-04-05,2025-04-20,CATEGORY,Meat & Seafood,0.15,Flyer
+PROMO005,Colazione Conveniente,2025-05-02,2025-05-18,CATEGORY,Dairy,0.1,App
+PROMO006,Estate da Bere,2025-06-06,2025-06-29,CATEGORY,Beverages,0.18,Flyer
+PROMO007,Festa del Pane,2025-07-04,2025-07-13,CATEGORY,Bakery,0.15,In-store
+PROMO008,Ferragosto Sicilia,2025-08-01,2025-08-17,CATEGORY,Meat & Seafood,0.2,App
+PROMO009,Rientro Pulito,2025-09-05,2025-09-21,CATEGORY,Household,0.22,Flyer
+PROMO010,Benessere Autunno,2025-10-03,2025-10-19,CATEGORY,Personal Care,0.18,App
+PROMO011,Private Label Days,2025-11-07,2025-11-23,BRAND_TYPE,Private Label,0.15,Loyalty
+PROMO012,Natale in Dispensa,2025-12-05,2025-12-24,CATEGORY,Pantry,0.18,Flyer
+PROMO013,Weekend Mozzarella,2025-05-23,2025-05-25,PRODUCT,PR013,0.25,App
+PROMO014,Weekend Arance,2025-12-12,2025-12-14,PRODUCT,PR016,0.25,Loyalty

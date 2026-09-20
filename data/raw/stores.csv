@@ -1,0 +1,6 @@
+store_id,store_name,city,province,format,floor_area_sqm,opening_date
+MV001,MercatoVivo Catania Centro,Catania,CT,Urban,1180,2017-03-18
+MV002,MercatoVivo Siracusa Aretusa,Siracusa,SR,Supermarket,1640,2015-09-05
+MV003,MercatoVivo Ragusa Iblea,Ragusa,RG,Supermarket,1510,2019-11-23
+MV004,MercatoVivo Lentini Etna,Lentini,SR,Neighborhood,930,2021-06-12
+MV005,MercatoVivo Palermo Liberta,Palermo,PA,Urban,1870,2014-02-15
