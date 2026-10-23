@@ -1,0 +1,6 @@
+store_id,store_name,net_sales_eur,revenue_target_eur,variance_eur,variance_pct,months_above_target
+MV004,MercatoVivo Lentini Etna,16651.3,17756.38,-1105.08,-0.0622,0
+MV003,MercatoVivo Ragusa Iblea,19672.25,20313.42,-641.17,-0.0316,0
+MV001,MercatoVivo Catania Centro,26100.01,26273.45,-173.44,-0.0066,4
+MV002,MercatoVivo Siracusa Aretusa,22732.74,22608.37,124.37,0.0055,7
+MV005,MercatoVivo Palermo Liberta,29874.75,28993.98,880.77,0.0304,12

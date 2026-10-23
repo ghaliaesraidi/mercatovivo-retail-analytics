@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">MercatoVivo Sicilia validated portfolio dashboard</title>
+  <desc id="desc">A static dashboard preview showing 2025 sales, margin, store target variance, category margin and key recommendations after documented data cleaning.</desc>
+  <defs>
+    <linearGradient id="header" x1="0" x2="1"><stop offset="0" stop-color="#17324d"/><stop offset="1" stop-color="#0d5960"/></linearGradient>
+    <linearGradient id="area" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#14a39a" stop-opacity=".28"/><stop offset="1" stop-color="#14a39a" stop-opacity=".02"/></linearGradient>
+    <style>
+      text{font-family:Inter,Segoe UI,Arial,sans-serif;fill:#17324d}.small{font-size:16px;fill:#607286}.label{font-size:18px;font-weight:600}.section{font-size:22px;font-weight:700}.kpi{font-size:36px;font-weight:750}.white{fill:#fff}.muted{fill:#9fb2c4}.grid{stroke:#dce5eb;stroke-width:1}.panel{fill:#fff;stroke:#e0e8ed;stroke-width:1}.good{fill:#16856f}.bad{fill:#c4544d}.teal{fill:#128078}.navy{fill:#17324d}
+    </style>
+  </defs>
+  <rect width="1600" height="1000" fill="#f4f7f9"/>
+  <rect width="1600" height="92" fill="url(#header)"/>
+  <text x="52" y="42" class="white" font-size="29" font-weight="750">MercatoVivo Sicilia</text>
+  <text x="52" y="70" class="muted" font-size="16">2025 retail performance • validated analytical preview</text>
+  <text x="1548" y="50" class="white" text-anchor="end" font-size="17">Synthetic portfolio case</text>
+
+  <g><rect x="52" y="122" width="355" height="118" rx="12" fill="#dce5eb" opacity=".55"/><rect x="50" y="118" width="355" height="118" rx="12" class="panel"/><rect x="50" y="118" width="7" height="118" rx="3" fill="#14a39a"/><text x="78" y="151" class="small">Net sales</text><text x="78" y="195" class="kpi">€115.0K</text><text x="78" y="219" class="small">clean extract</text></g>
+  <g><rect x="437" y="122" width="355" height="118" rx="12" fill="#dce5eb" opacity=".55"/><rect x="435" y="118" width="355" height="118" rx="12" class="panel"/><rect x="435" y="118" width="7" height="118" rx="3" fill="#14a39a"/><text x="463" y="151" class="small">Gross profit</text><text x="463" y="195" class="kpi">€53.4K</text><text x="463" y="219" class="small">after product cost</text></g>
+  <g><rect x="822" y="122" width="355" height="118" rx="12" fill="#dce5eb" opacity=".55"/><rect x="820" y="118" width="355" height="118" rx="12" class="panel"/><rect x="820" y="118" width="7" height="118" rx="3" fill="#14a39a"/><text x="848" y="151" class="small">Gross margin</text><text x="848" y="195" class="kpi">46.4%</text><text x="848" y="219" class="small">chain total</text></g>
+  <g><rect x="1207" y="122" width="355" height="118" rx="12" fill="#dce5eb" opacity=".55"/><rect x="1205" y="118" width="355" height="118" rx="12" class="panel"/><rect x="1205" y="118" width="7" height="118" rx="3" fill="#14a39a"/><text x="1233" y="151" class="small">Transactions</text><text x="1233" y="195" class="kpi">12,000</text><text x="1233" y="219" class="small">€9.59 avg basket</text></g>
+
+  <rect x="50" y="266" width="930" height="306" rx="14" class="panel"/>
+  <text x="78" y="302" class="section">Monthly net sales</text>
+  <text x="78" y="325" class="small">Peak: Aug €12.2K • Low: Feb €7.3K</text>
+  <line x1="90" y1="515" x2="940" y2="515" class="grid"/><text x="78" y="520" class="small" text-anchor="end">€7.3K</text>
+  <line x1="90" y1="425" x2="940" y2="425" class="grid"/><text x="78" y="430" class="small" text-anchor="end">€9.7K</text>
+  <line x1="90" y1="335" x2="940" y2="335" class="grid"/><text x="78" y="340" class="small" text-anchor="end">€12.2K</text>
+  <path d="M90.0,498.7 L167.3,515.0 L244.5,454.6 L321.8,440.5 L399.1,458.5 L476.4,428.5 L553.6,360.3 L630.9,335.0 L708.2,435.6 L785.5,481.3 L862.7,421.6 L940.0,338.3 L940.0,515.0 L90.0,515.0 Z" fill="url(#area)"/>
+  <path d="M90.0,498.7 L167.3,515.0 L244.5,454.6 L321.8,440.5 L399.1,458.5 L476.4,428.5 L553.6,360.3 L630.9,335.0 L708.2,435.6 L785.5,481.3 L862.7,421.6 L940.0,338.3" fill="none" stroke="#128078" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="90" cy="498.6877381509972" r="5" fill="#fff" stroke="#128078" stroke-width="3"/><text x="90" y="542" class="small" text-anchor="middle">Jan</text>
+  <circle cx="167.27272727272728" cy="515" r="5" fill="#fff" stroke="#128078" stroke-width="3"/><text x="167.27272727272728" y="542" class="small" text-anchor="middle">Feb</text>
+  <circle cx="244.54545454545456" cy="454.61392693737054" r="5" fill="#fff" stroke="#128078" stroke-width="3"/><text x="244.54545454545456" y="542" class="small" text-anchor="middle">Mar</text>
+  <circle cx="321.8181818181818" cy="440.4977164093323" r="5" fill="#fff" stroke="#128078" stroke-width="3"/><text x="321.8181818181818" y="542" class="small" text-anchor="middle">Apr</text>
+  <circle cx="399.0909090909091" cy="458.54178469820397" r="5" fill="#fff" stroke="#128078" stroke-width="3"/><text x="399.0909090909091" y="542" class="small" text-anchor="middle">May</text>
+  <circle cx="476.3636363636364" cy="428.46011539649396" r="5" fill="#fff" stroke="#128078" stroke-width="3"/><text x="476.3636363636364" y="542" class="small" text-anchor="middle">Jun</text>
+  <circle cx="553.6363636363636" cy="360.32950996373665" r="5" fill="#fff" stroke="#128078" stroke-width="3"/><text x="553.6363636363636" y="542" class="small" text-anchor="middle">Jul</text>
+  <circle cx="630.9090909090909" cy="335" r="5" fill="#fff" stroke="#128078" stroke-width="3"/><text x="630.9090909090909" y="542" class="small" text-anchor="middle">Aug</text>
+  <circle cx="708.1818181818182" cy="435.5784141879191" r="5" fill="#fff" stroke="#128078" stroke-width="3"/><text x="708.1818181818182" y="542" class="small" text-anchor="middle">Sep</text>
+  <circle cx="785.4545454545455" cy="481.3104006152298" r="5" fill="#fff" stroke="#128078" stroke-width="3"/><text x="785.4545454545455" y="542" class="small" text-anchor="middle">Oct</text>
+  <circle cx="862.7272727272727" cy="421.64996328665245" r="5" fill="#fff" stroke="#128078" stroke-width="3"/><text x="862.7272727272727" y="542" class="small" text-anchor="middle">Nov</text>
+  <circle cx="940" cy="338.34101688813985" r="5" fill="#fff" stroke="#128078" stroke-width="3"/><text x="940" y="542" class="small" text-anchor="middle">Dec</text>
+
+  <rect x="1010" y="266" width="540" height="306" rx="14" class="panel"/>
+  <text x="1038" y="302" class="section">Sales versus annual target</text>
+  <text x="1038" y="325" class="small">Variance after cleaning</text>
+  <line x1="1390" y1="344" x2="1390" y2="540" stroke="#93a6b5" stroke-width="2"/>
+  <text x="1038" y="373" class="small">Lentini Etna</text><rect x="1253.16" y="357" width="136.84" height="22" rx="4" fill="#c4544d"/><text x="1245.16" y="373" font-size="15" font-weight="700" text-anchor="end" fill="#c4544d">-6.2%</text>
+  <text x="1038" y="412" class="small">Ragusa Iblea</text><rect x="1320.48" y="396" width="69.52000000000001" height="22" rx="4" fill="#c4544d"/><text x="1312.48" y="412" font-size="15" font-weight="700" text-anchor="end" fill="#c4544d">-3.2%</text>
+  <text x="1038" y="451" class="small">Catania Centro</text><rect x="1375.48" y="435" width="14.52" height="22" rx="4" fill="#c4544d"/><text x="1367.48" y="451" font-size="15" font-weight="700" text-anchor="end" fill="#c4544d">-0.7%</text>
+  <text x="1038" y="490" class="small">Siracusa Aretusa</text><rect x="1390" y="474" width="12.1" height="22" rx="4" fill="#16856f"/><text x="1410.1" y="490" font-size="15" font-weight="700" text-anchor="start" fill="#16856f">+0.5%</text>
+  <text x="1038" y="529" class="small">Palermo Liberta</text><rect x="1390" y="513" width="66.88" height="22" rx="4" fill="#16856f"/><text x="1464.88" y="529" font-size="15" font-weight="700" text-anchor="start" fill="#16856f">+3.0%</text>
+
+  <rect x="50" y="602" width="740" height="338" rx="14" class="panel"/>
+  <text x="78" y="640" class="section">Gross margin by category</text>
+  <text x="78" y="664" class="small">Chain margin: 46.4%</text>
+  <text x="78" y="705" class="small">Pantry</text><rect x="280" y="690" width="82.99000000000008" height="17" rx="4" fill="#d08b52"/><line x1="460.385" y1="688" x2="460.385" y2="709" stroke="#17324d" stroke-width="2"/><text x="722" y="705" font-size="15" font-weight="700">41.9%</text>
+  <text x="78" y="730" class="small">Meat &amp; Seafood</text><rect x="280" y="715" width="89.43999999999996" height="17" rx="4" fill="#d08b52"/><line x1="460.385" y1="713" x2="460.385" y2="734" stroke="#17324d" stroke-width="2"/><text x="722" y="730" font-size="15" font-weight="700">42.2%</text>
+  <text x="78" y="755" class="small">Dairy</text><rect x="280" y="740" width="120.61499999999998" height="17" rx="4" fill="#d08b52"/><line x1="460.385" y1="738" x2="460.385" y2="759" stroke="#17324d" stroke-width="2"/><text x="722" y="755" font-size="15" font-weight="700">43.6%</text>
+  <text x="78" y="780" class="small">Household</text><rect x="280" y="765" width="194.36" height="17" rx="4" fill="#128078"/><line x1="460.385" y1="763" x2="460.385" y2="784" stroke="#17324d" stroke-width="2"/><text x="722" y="780" font-size="15" font-weight="700">47.0%</text>
+  <text x="78" y="805" class="small">Beverages</text><rect x="280" y="790" width="205.97000000000003" height="17" rx="4" fill="#128078"/><line x1="460.385" y1="788" x2="460.385" y2="809" stroke="#17324d" stroke-width="2"/><text x="722" y="805" font-size="15" font-weight="700">47.6%</text>
+  <text x="78" y="830" class="small">Personal Care</text><rect x="280" y="815" width="210.485" height="17" rx="4" fill="#128078"/><line x1="460.385" y1="813" x2="460.385" y2="834" stroke="#17324d" stroke-width="2"/><text x="722" y="830" font-size="15" font-weight="700">47.8%</text>
+  <text x="78" y="855" class="small">Fresh Produce</text><rect x="280" y="840" width="243.59500000000008" height="17" rx="4" fill="#128078"/><line x1="460.385" y1="838" x2="460.385" y2="859" stroke="#17324d" stroke-width="2"/><text x="722" y="855" font-size="15" font-weight="700">49.3%</text>
+  <text x="78" y="880" class="small">Snacks</text><rect x="280" y="865" width="250.26000000000008" height="17" rx="4" fill="#128078"/><line x1="460.385" y1="863" x2="460.385" y2="884" stroke="#17324d" stroke-width="2"/><text x="722" y="880" font-size="15" font-weight="700">49.6%</text>
+  <text x="78" y="905" class="small">Bakery</text><rect x="280" y="890" width="368.08000000000015" height="17" rx="4" fill="#128078"/><line x1="460.385" y1="888" x2="460.385" y2="909" stroke="#17324d" stroke-width="2"/><text x="722" y="905" font-size="15" font-weight="700">55.1%</text>
+
+  <rect x="820" y="602" width="730" height="338" rx="14" class="panel"/>
+  <text x="850" y="640" class="section">Management priorities</text>
+  <rect x="850" y="674" width="8" height="69" rx="4" fill="#c4544d"/>
+  <text x="874" y="695" class="label">1. Stabilize Lentini operations</text>
+  <text x="874" y="720" class="small">−6.2% to target • 4.0% waste rate • 296 stockout days</text>
+  <rect x="850" y="760" width="8" height="69" rx="4" fill="#d08b52"/>
+  <text x="874" y="781" class="label">2. Add promotion margin gates</text>
+  <text x="874" y="806" class="small">Promo margin 35.8% vs 46.9% non-promo</text>
+  <rect x="850" y="846" width="8" height="69" rx="4" fill="#128078"/>
+  <text x="874" y="867" class="label">3. Review category mix and pricing</text>
+  <text x="874" y="892" class="small">Pantry 41.9% • Meat &amp; Seafood 42.2%</text>
+  <text x="1550" y="975" text-anchor="end" class="small">Source: synthetic MercatoVivo extracts • Cleaning rules documented in SQL</text>
+</svg>

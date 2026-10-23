@@ -1,0 +1,11 @@
+{
+  "name": "mercatovivo-retail-analytics",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "analyze": "node scripts/analyze_portfolio.mjs",
+    "dashboard": "node scripts/build_dashboard_preview.mjs",
+    "validate": "npm run analyze && npm run dashboard"
+  }
+}

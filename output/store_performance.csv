@@ -1,0 +1,6 @@
+store_id,net_sales_eur,product_cost_eur,gross_profit_eur,gross_margin_pct,net_units,transactions,average_basket_eur,average_discount_pct,line_count,store_name
+MV005,29874.75,15852.34,14022.41,0.4694,11894,3065,9.75,0.0102,9612,MercatoVivo Palermo Liberta
+MV001,26100.01,13998.37,12101.64,0.4637,10561,2739,9.53,0.0076,8457,MercatoVivo Catania Centro
+MV002,22732.74,12230.99,10501.75,0.462,9157,2413,9.42,0.0081,7363,MercatoVivo Siracusa Aretusa
+MV003,19672.25,10538.15,9134.1,0.4643,7987,2054,9.58,0.0067,6406,MercatoVivo Ragusa Iblea
+MV004,16651.3,9050.46,7600.84,0.4565,6719,1729,9.63,0.0081,5409,MercatoVivo Lentini Etna
