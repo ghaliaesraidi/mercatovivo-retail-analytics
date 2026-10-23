@@ -1,0 +1,6 @@
+store_id,store_name,waste_units,waste_cost_eur,waste_rate_pct,stockout_days
+MV004,MercatoVivo Lentini Etna,2782,4316.44,0.0403,296
+MV003,MercatoVivo Ragusa Iblea,2242,3510.04,0.0319,0
+MV005,MercatoVivo Palermo Liberta,2123,3311.83,0.0295,0
+MV001,MercatoVivo Catania Centro,2077,3214.78,0.0295,0
+MV002,MercatoVivo Siracusa Aretusa,2090,3211.33,0.0298,0

@@ -1,0 +1,15 @@
+promotion_id,promotion_name,net_sales_eur,product_cost_eur,gross_profit_eur,gross_margin_pct,net_units,transactions,average_basket_eur,average_discount_pct,line_count
+PROMO011,Private Label Days,915.21,543.34,371.87,0.4063,600,338,2.71,0.151,478
+PROMO012,Natale in Dispensa,657.42,454.85,202.57,0.3081,355,248,2.65,0.1824,290
+PROMO006,Estate da Bere,544.85,343.53,201.32,0.3695,264,194,2.81,0.1815,213
+PROMO004,Pasqua in Tavola,497.05,337.58,159.47,0.3208,112,82,6.06,0.1525,86
+PROMO001,Gennaio Dispensa,463.35,311.94,151.41,0.3268,212,156,2.97,0.1521,176
+PROMO008,Ferragosto Sicilia,454.79,322.36,132.43,0.2912,120,89,5.11,0.2013,93
+PROMO003,Freschezza di Primavera,347.42,200.9,146.52,0.4217,208,149,2.33,0.1211,167
+PROMO005,Colazione Conveniente,321.45,201.49,119.96,0.3732,178,132,2.44,0.1026,147
+PROMO009,Rientro Pulito,249.7,169.82,79.88,0.3199,98,73,3.42,0.2231,79
+PROMO007,Festa del Pane,212.25,110.79,101.46,0.478,126,100,2.12,0.1536,107
+PROMO010,Benessere Autunno,182.53,116.38,66.15,0.3624,70,57,3.2,0.1815,57
+PROMO002,San Valentino Dolci,45.76,28.72,17.04,0.3724,28,21,2.18,0.2,22
+PROMO014,Weekend Arance,12.72,8.6,4.12,0.3239,10,9,1.41,0.25,9
+PROMO013,Weekend Mozzarella,8.2,5.76,2.44,0.2976,8,7,1.17,0.2675,7

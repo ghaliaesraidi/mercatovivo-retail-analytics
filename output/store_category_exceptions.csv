@@ -1,0 +1,16 @@
+store_id,category,net_sales_eur,product_cost_eur,gross_profit_eur,gross_margin_pct,net_units,transactions,average_basket_eur,average_discount_pct,line_count,store_name,margin_gap_vs_chain_pp,category_margin_pct
+MV004,Pantry,2782.16,1652.33,1129.83,0.4061,1135,762,3.65,0.0152,920,MercatoVivo Lentini Etna,-5.78,0.4186
+MV002,Pantry,3671.45,2147.86,1523.59,0.415,1524,1010,3.64,0.0137,1227,MercatoVivo Siracusa Aretusa,-4.89,0.4186
+MV004,Meat & Seafood,2537.16,1482.17,1054.99,0.4158,518,378,6.71,0.0114,413,MercatoVivo Lentini Etna,-4.81,0.4216
+MV001,Meat & Seafood,3995.77,2321.2,1674.57,0.4191,799,611,6.54,0.0133,655,MercatoVivo Catania Centro,-4.48,0.4216
+MV002,Meat & Seafood,3697.21,2139.86,1557.35,0.4212,732,528,7,0.0086,582,MercatoVivo Siracusa Aretusa,-4.27,0.4216
+MV005,Pantry,5157.53,2982.48,2175.05,0.4217,2101,1375,3.75,0.0178,1696,MercatoVivo Palermo Liberta,-4.22,0.4186
+MV001,Pantry,4198.76,2426.99,1771.77,0.422,1783,1149,3.65,0.012,1428,MercatoVivo Catania Centro,-4.19,0.4186
+MV003,Meat & Seafood,3100.58,1791.37,1309.21,0.4222,618,452,6.86,0.0093,484,MercatoVivo Ragusa Iblea,-4.17,0.4216
+MV003,Pantry,3155.98,1816.24,1339.74,0.4245,1355,908,3.48,0.0097,1089,MercatoVivo Ragusa Iblea,-3.94,0.4186
+MV005,Meat & Seafood,4620.81,2649.11,1971.7,0.4267,910,686,6.74,0.0139,741,MercatoVivo Palermo Liberta,-3.72,0.4216
+MV004,Dairy,1906.18,1088.07,818.11,0.4292,979,646,2.95,0.0038,783,MercatoVivo Lentini Etna,-3.47,0.4361
+MV003,Dairy,2371.67,1342,1029.67,0.4342,1202,830,2.86,0.0033,976,MercatoVivo Ragusa Iblea,-2.97,0.4361
+MV001,Dairy,3192.89,1805.73,1387.16,0.4345,1650,1109,2.88,0.005,1312,MercatoVivo Catania Centro,-2.94,0.4361
+MV002,Dairy,2833.32,1600.12,1233.2,0.4352,1473,969,2.92,0.0056,1168,MercatoVivo Siracusa Aretusa,-2.87,0.4361
+MV005,Dairy,3471.16,1932.04,1539.12,0.4434,1817,1236,2.81,0.0081,1467,MercatoVivo Palermo Liberta,-2.05,0.4361

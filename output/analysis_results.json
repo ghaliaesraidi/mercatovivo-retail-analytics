@@ -1,0 +1,2191 @@
+{
+  "generated_at_utc": "2026-10-23T10:11:53.144Z",
+  "quality": {
+    "row_counts": {
+      "stores": 5,
+      "products": 40,
+      "customers": 902,
+      "promotions": 14,
+      "transactions": 12002,
+      "transaction_items": 37270,
+      "inventory_weekly": 10600,
+      "monthly_targets": 60
+    },
+    "duplicates": {
+      "customer_ids": [
+        {
+          "value": "CU0122",
+          "count": 2
+        },
+        {
+          "value": "CU0489",
+          "count": 2
+        }
+      ],
+      "transaction_ids": [
+        {
+          "value": "TX000251",
+          "count": 2
+        },
+        {
+          "value": "TX007100",
+          "count": 2
+        }
+      ],
+      "item_ids": [
+        {
+          "value": "IT0000421",
+          "count": 2
+        },
+        {
+          "value": "IT0002000",
+          "count": 2
+        },
+        {
+          "value": "IT0005771",
+          "count": 2
+        },
+        {
+          "value": "IT0009051",
+          "count": 2
+        },
+        {
+          "value": "IT0013201",
+          "count": 2
+        },
+        {
+          "value": "IT0016778",
+          "count": 2
+        },
+        {
+          "value": "IT0020451",
+          "count": 2
+        },
+        {
+          "value": "IT0024002",
+          "count": 2
+        },
+        {
+          "value": "IT0027101",
+          "count": 2
+        },
+        {
+          "value": "IT0030126",
+          "count": 2
+        },
+        {
+          "value": "IT0032501",
+          "count": 2
+        },
+        {
+          "value": "IT0035001",
+          "count": 2
+        }
+      ]
+    },
+    "issue_counts": {
+      "zero_quantity_rows": 4,
+      "invalid_discount_rows": 3,
+      "missing_product_id_rows": 4,
+      "unmatched_product_rows_after_standardization": 0,
+      "unmatched_transaction_rows": 0,
+      "invalid_store_rows_exact_match": 5,
+      "invalid_store_rows_after_standardization": 0
+    },
+    "inconsistent_labels": {
+      "categories": [
+        "Bakery ",
+        "fresh produce"
+      ],
+      "brand_types": [
+        "national"
+      ],
+      "payment_methods": [
+        "Contanti ",
+        "carta",
+        "MOBILE",
+        "gift card"
+      ]
+    },
+    "inventory_reconciliation_failures": 0,
+    "clean_counts": {
+      "transactions": 12000,
+      "customers": 900,
+      "transaction_items": 37247
+    }
+  },
+  "overall": {
+    "net_sales_eur": 115031.05,
+    "product_cost_eur": 61670.31,
+    "gross_profit_eur": 53360.74,
+    "gross_margin_pct": 0.4639,
+    "net_units": 46318,
+    "transactions": 12000,
+    "average_basket_eur": 9.59,
+    "average_discount_pct": 0.0083,
+    "line_count": 37247
+  },
+  "by_store": [
+    {
+      "store_id": "MV005",
+      "net_sales_eur": 29874.75,
+      "product_cost_eur": 15852.34,
+      "gross_profit_eur": 14022.41,
+      "gross_margin_pct": 0.4694,
+      "net_units": 11894,
+      "transactions": 3065,
+      "average_basket_eur": 9.75,
+      "average_discount_pct": 0.0102,
+      "line_count": 9612,
+      "store_name": "MercatoVivo Palermo Liberta"
+    },
+    {
+      "store_id": "MV001",
+      "net_sales_eur": 26100.01,
+      "product_cost_eur": 13998.37,
+      "gross_profit_eur": 12101.64,
+      "gross_margin_pct": 0.4637,
+      "net_units": 10561,
+      "transactions": 2739,
+      "average_basket_eur": 9.53,
+      "average_discount_pct": 0.0076,
+      "line_count": 8457,
+      "store_name": "MercatoVivo Catania Centro"
+    },
+    {
+      "store_id": "MV002",
+      "net_sales_eur": 22732.74,
+      "product_cost_eur": 12230.99,
+      "gross_profit_eur": 10501.75,
+      "gross_margin_pct": 0.462,
+      "net_units": 9157,
+      "transactions": 2413,
+      "average_basket_eur": 9.42,
+      "average_discount_pct": 0.0081,
+      "line_count": 7363,
+      "store_name": "MercatoVivo Siracusa Aretusa"
+    },
+    {
+      "store_id": "MV003",
+      "net_sales_eur": 19672.25,
+      "product_cost_eur": 10538.15,
+      "gross_profit_eur": 9134.1,
+      "gross_margin_pct": 0.4643,
+      "net_units": 7987,
+      "transactions": 2054,
+      "average_basket_eur": 9.58,
+      "average_discount_pct": 0.0067,
+      "line_count": 6406,
+      "store_name": "MercatoVivo Ragusa Iblea"
+    },
+    {
+      "store_id": "MV004",
+      "net_sales_eur": 16651.3,
+      "product_cost_eur": 9050.46,
+      "gross_profit_eur": 7600.84,
+      "gross_margin_pct": 0.4565,
+      "net_units": 6719,
+      "transactions": 1729,
+      "average_basket_eur": 9.63,
+      "average_discount_pct": 0.0081,
+      "line_count": 5409,
+      "store_name": "MercatoVivo Lentini Etna"
+    }
+  ],
+  "by_category": [
+    {
+      "category": "Pantry",
+      "net_sales_eur": 18965.88,
+      "product_cost_eur": 11025.9,
+      "gross_profit_eur": 7939.98,
+      "gross_margin_pct": 0.4186,
+      "net_units": 7898,
+      "transactions": 5204,
+      "average_basket_eur": 3.64,
+      "average_discount_pct": 0.0139,
+      "line_count": 6360
+    },
+    {
+      "category": "Meat & Seafood",
+      "net_sales_eur": 17951.53,
+      "product_cost_eur": 10383.71,
+      "gross_profit_eur": 7567.82,
+      "gross_margin_pct": 0.4216,
+      "net_units": 3577,
+      "transactions": 2655,
+      "average_basket_eur": 6.76,
+      "average_discount_pct": 0.0115,
+      "line_count": 2875
+    },
+    {
+      "category": "Beverages",
+      "net_sales_eur": 15181.97,
+      "product_cost_eur": 7959.1,
+      "gross_profit_eur": 7222.87,
+      "gross_margin_pct": 0.4758,
+      "net_units": 5937,
+      "transactions": 4144,
+      "average_basket_eur": 3.66,
+      "average_discount_pct": 0.0102,
+      "line_count": 4763
+    },
+    {
+      "category": "Fresh Produce",
+      "net_sales_eur": 14355.19,
+      "product_cost_eur": 7274.14,
+      "gross_profit_eur": 7081.05,
+      "gross_margin_pct": 0.4933,
+      "net_units": 7414,
+      "transactions": 4980,
+      "average_basket_eur": 2.88,
+      "average_discount_pct": 0.0043,
+      "line_count": 5985
+    },
+    {
+      "category": "Dairy",
+      "net_sales_eur": 13775.22,
+      "product_cost_eur": 7767.96,
+      "gross_profit_eur": 6007.26,
+      "gross_margin_pct": 0.4361,
+      "net_units": 7121,
+      "transactions": 4790,
+      "average_basket_eur": 2.88,
+      "average_discount_pct": 0.0055,
+      "line_count": 5706
+    },
+    {
+      "category": "Bakery",
+      "net_sales_eur": 12337.67,
+      "product_cost_eur": 5536.57,
+      "gross_profit_eur": 6801.1,
+      "gross_margin_pct": 0.5512,
+      "net_units": 6343,
+      "transactions": 4459,
+      "average_basket_eur": 2.77,
+      "average_discount_pct": 0.0073,
+      "line_count": 5103
+    },
+    {
+      "category": "Household",
+      "net_sales_eur": 9639.27,
+      "product_cost_eur": 5104.57,
+      "gross_profit_eur": 4534.7,
+      "gross_margin_pct": 0.4704,
+      "net_units": 3215,
+      "transactions": 2402,
+      "average_basket_eur": 4.01,
+      "average_discount_pct": 0.0096,
+      "line_count": 2590
+    },
+    {
+      "category": "Personal Care",
+      "net_sales_eur": 8676.13,
+      "product_cost_eur": 4529.52,
+      "gross_profit_eur": 4146.61,
+      "gross_margin_pct": 0.4779,
+      "net_units": 2749,
+      "transactions": 2073,
+      "average_basket_eur": 4.19,
+      "average_discount_pct": 0.007,
+      "line_count": 2214
+    },
+    {
+      "category": "Snacks",
+      "net_sales_eur": 4148.19,
+      "product_cost_eur": 2088.84,
+      "gross_profit_eur": 2059.35,
+      "gross_margin_pct": 0.4964,
+      "net_units": 2064,
+      "transactions": 1598,
+      "average_basket_eur": 2.6,
+      "average_discount_pct": 0.0027,
+      "line_count": 1651
+    }
+  ],
+  "by_month": [
+    {
+      "month": "2025-01",
+      "net_sales_eur": 7738.33,
+      "product_cost_eur": 4151.12,
+      "gross_profit_eur": 3587.21,
+      "gross_margin_pct": 0.4636,
+      "net_units": 3159,
+      "transactions": 831,
+      "average_basket_eur": 9.31,
+      "average_discount_pct": 0.0102,
+      "line_count": 2528
+    },
+    {
+      "month": "2025-02",
+      "net_sales_eur": 7295.25,
+      "product_cost_eur": 3878.03,
+      "gross_profit_eur": 3417.22,
+      "gross_margin_pct": 0.4684,
+      "net_units": 2923,
+      "transactions": 765,
+      "average_basket_eur": 9.54,
+      "average_discount_pct": 0.0019,
+      "line_count": 2347
+    },
+    {
+      "month": "2025-03",
+      "net_sales_eur": 8935.48,
+      "product_cost_eur": 4792.02,
+      "gross_profit_eur": 4143.46,
+      "gross_margin_pct": 0.4637,
+      "net_units": 3565,
+      "transactions": 921,
+      "average_basket_eur": 9.7,
+      "average_discount_pct": 0.0071,
+      "line_count": 2892
+    },
+    {
+      "month": "2025-04",
+      "net_sales_eur": 9318.91,
+      "product_cost_eur": 5017.49,
+      "gross_profit_eur": 4301.42,
+      "gross_margin_pct": 0.4616,
+      "net_units": 3693,
+      "transactions": 958,
+      "average_basket_eur": 9.73,
+      "average_discount_pct": 0.0046,
+      "line_count": 2965
+    },
+    {
+      "month": "2025-05",
+      "net_sales_eur": 8828.79,
+      "product_cost_eur": 4697.01,
+      "gross_profit_eur": 4131.78,
+      "gross_margin_pct": 0.468,
+      "net_units": 3621,
+      "transactions": 933,
+      "average_basket_eur": 9.46,
+      "average_discount_pct": 0.0057,
+      "line_count": 2897
+    },
+    {
+      "month": "2025-06",
+      "net_sales_eur": 9645.88,
+      "product_cost_eur": 5192.38,
+      "gross_profit_eur": 4453.5,
+      "gross_margin_pct": 0.4617,
+      "net_units": 3881,
+      "transactions": 1026,
+      "average_basket_eur": 9.4,
+      "average_discount_pct": 0.0124,
+      "line_count": 3155
+    },
+    {
+      "month": "2025-07",
+      "net_sales_eur": 11496.47,
+      "product_cost_eur": 6128.15,
+      "gross_profit_eur": 5368.32,
+      "gross_margin_pct": 0.467,
+      "net_units": 4625,
+      "transactions": 1186,
+      "average_basket_eur": 9.69,
+      "average_discount_pct": 0.0042,
+      "line_count": 3731
+    },
+    {
+      "month": "2025-08",
+      "net_sales_eur": 12184.48,
+      "product_cost_eur": 6547.25,
+      "gross_profit_eur": 5637.23,
+      "gross_margin_pct": 0.4627,
+      "net_units": 4905,
+      "transactions": 1239,
+      "average_basket_eur": 9.83,
+      "average_discount_pct": 0.0049,
+      "line_count": 3902
+    },
+    {
+      "month": "2025-09",
+      "net_sales_eur": 9452.53,
+      "product_cost_eur": 5076.26,
+      "gross_profit_eur": 4376.27,
+      "gross_margin_pct": 0.463,
+      "net_units": 3734,
+      "transactions": 955,
+      "average_basket_eur": 9.9,
+      "average_discount_pct": 0.0058,
+      "line_count": 2994
+    },
+    {
+      "month": "2025-10",
+      "net_sales_eur": 8210.34,
+      "product_cost_eur": 4373.75,
+      "gross_profit_eur": 3836.59,
+      "gross_margin_pct": 0.4673,
+      "net_units": 3297,
+      "transactions": 872,
+      "average_basket_eur": 9.42,
+      "average_discount_pct": 0.0039,
+      "line_count": 2690
+    },
+    {
+      "month": "2025-11",
+      "net_sales_eur": 9830.86,
+      "product_cost_eur": 5320.69,
+      "gross_profit_eur": 4510.17,
+      "gross_margin_pct": 0.4588,
+      "net_units": 4001,
+      "transactions": 1043,
+      "average_basket_eur": 9.43,
+      "average_discount_pct": 0.0226,
+      "line_count": 3216
+    },
+    {
+      "month": "2025-12",
+      "net_sales_eur": 12093.73,
+      "product_cost_eur": 6496.16,
+      "gross_profit_eur": 5597.57,
+      "gross_margin_pct": 0.4628,
+      "net_units": 4914,
+      "transactions": 1271,
+      "average_basket_eur": 9.52,
+      "average_discount_pct": 0.0137,
+      "line_count": 3930
+    }
+  ],
+  "by_brand": [
+    {
+      "brand_type": "National",
+      "net_sales_eur": 55705.48,
+      "product_cost_eur": 30983.99,
+      "gross_profit_eur": 24721.49,
+      "gross_margin_pct": 0.4438,
+      "net_units": 18782,
+      "transactions": 9042,
+      "average_basket_eur": 6.16,
+      "average_discount_pct": 0.0077,
+      "line_count": 15117
+    },
+    {
+      "brand_type": "Private Label",
+      "net_sales_eur": 37671.96,
+      "product_cost_eur": 19098.53,
+      "gross_profit_eur": 18573.43,
+      "gross_margin_pct": 0.493,
+      "net_units": 21021,
+      "transactions": 9555,
+      "average_basket_eur": 3.94,
+      "average_discount_pct": 0.0097,
+      "line_count": 16897
+    },
+    {
+      "brand_type": "Local",
+      "net_sales_eur": 21653.61,
+      "product_cost_eur": 11587.79,
+      "gross_profit_eur": 10065.82,
+      "gross_margin_pct": 0.4649,
+      "net_units": 6515,
+      "transactions": 4489,
+      "average_basket_eur": 4.82,
+      "average_discount_pct": 0.0054,
+      "line_count": 5233
+    }
+  ],
+  "by_loyalty": [
+    {
+      "loyalty_segment": "Anonymous",
+      "net_sales_eur": 43888.58,
+      "product_cost_eur": 23539.19,
+      "gross_profit_eur": 20349.39,
+      "gross_margin_pct": 0.4637,
+      "net_units": 17527,
+      "transactions": 4583,
+      "average_basket_eur": 9.58,
+      "average_discount_pct": 0.0084,
+      "line_count": 14087
+    },
+    {
+      "loyalty_segment": "Bronze",
+      "net_sales_eur": 38721.8,
+      "product_cost_eur": 20744.38,
+      "gross_profit_eur": 17977.42,
+      "gross_margin_pct": 0.4643,
+      "net_units": 15626,
+      "transactions": 4010,
+      "average_basket_eur": 9.66,
+      "average_discount_pct": 0.008,
+      "line_count": 12518
+    },
+    {
+      "loyalty_segment": "Silver",
+      "net_sales_eur": 22987.51,
+      "product_cost_eur": 12341.21,
+      "gross_profit_eur": 10646.3,
+      "gross_margin_pct": 0.4631,
+      "net_units": 9302,
+      "transactions": 2413,
+      "average_basket_eur": 9.53,
+      "average_discount_pct": 0.0085,
+      "line_count": 7517
+    },
+    {
+      "loyalty_segment": "Gold",
+      "net_sales_eur": 9433.16,
+      "product_cost_eur": 5045.53,
+      "gross_profit_eur": 4387.63,
+      "gross_margin_pct": 0.4651,
+      "net_units": 3863,
+      "transactions": 994,
+      "average_basket_eur": 9.49,
+      "average_discount_pct": 0.0087,
+      "line_count": 3125
+    }
+  ],
+  "promo_vs_non_promo": [
+    {
+      "promo_status": "No promotion",
+      "net_sales_eur": 110118.35,
+      "product_cost_eur": 58514.25,
+      "gross_profit_eur": 51604.1,
+      "gross_margin_pct": 0.4686,
+      "net_units": 43929,
+      "transactions": 11887,
+      "average_basket_eur": 9.26,
+      "average_discount_pct": 0,
+      "line_count": 35316
+    },
+    {
+      "promo_status": "Promotion",
+      "net_sales_eur": 4912.7,
+      "product_cost_eur": 3156.06,
+      "gross_profit_eur": 1756.64,
+      "gross_margin_pct": 0.3576,
+      "net_units": 2389,
+      "transactions": 1649,
+      "average_basket_eur": 2.98,
+      "average_discount_pct": 0.1609,
+      "line_count": 1931
+    }
+  ],
+  "promotions": [
+    {
+      "promotion_id": "PROMO011",
+      "promotion_name": "Private Label Days",
+      "net_sales_eur": 915.21,
+      "product_cost_eur": 543.34,
+      "gross_profit_eur": 371.87,
+      "gross_margin_pct": 0.4063,
+      "net_units": 600,
+      "transactions": 338,
+      "average_basket_eur": 2.71,
+      "average_discount_pct": 0.151,
+      "line_count": 478
+    },
+    {
+      "promotion_id": "PROMO012",
+      "promotion_name": "Natale in Dispensa",
+      "net_sales_eur": 657.42,
+      "product_cost_eur": 454.85,
+      "gross_profit_eur": 202.57,
+      "gross_margin_pct": 0.3081,
+      "net_units": 355,
+      "transactions": 248,
+      "average_basket_eur": 2.65,
+      "average_discount_pct": 0.1824,
+      "line_count": 290
+    },
+    {
+      "promotion_id": "PROMO006",
+      "promotion_name": "Estate da Bere",
+      "net_sales_eur": 544.85,
+      "product_cost_eur": 343.53,
+      "gross_profit_eur": 201.32,
+      "gross_margin_pct": 0.3695,
+      "net_units": 264,
+      "transactions": 194,
+      "average_basket_eur": 2.81,
+      "average_discount_pct": 0.1815,
+      "line_count": 213
+    },
+    {
+      "promotion_id": "PROMO004",
+      "promotion_name": "Pasqua in Tavola",
+      "net_sales_eur": 497.05,
+      "product_cost_eur": 337.58,
+      "gross_profit_eur": 159.47,
+      "gross_margin_pct": 0.3208,
+      "net_units": 112,
+      "transactions": 82,
+      "average_basket_eur": 6.06,
+      "average_discount_pct": 0.1525,
+      "line_count": 86
+    },
+    {
+      "promotion_id": "PROMO001",
+      "promotion_name": "Gennaio Dispensa",
+      "net_sales_eur": 463.35,
+      "product_cost_eur": 311.94,
+      "gross_profit_eur": 151.41,
+      "gross_margin_pct": 0.3268,
+      "net_units": 212,
+      "transactions": 156,
+      "average_basket_eur": 2.97,
+      "average_discount_pct": 0.1521,
+      "line_count": 176
+    },
+    {
+      "promotion_id": "PROMO008",
+      "promotion_name": "Ferragosto Sicilia",
+      "net_sales_eur": 454.79,
+      "product_cost_eur": 322.36,
+      "gross_profit_eur": 132.43,
+      "gross_margin_pct": 0.2912,
+      "net_units": 120,
+      "transactions": 89,
+      "average_basket_eur": 5.11,
+      "average_discount_pct": 0.2013,
+      "line_count": 93
+    },
+    {
+      "promotion_id": "PROMO003",
+      "promotion_name": "Freschezza di Primavera",
+      "net_sales_eur": 347.42,
+      "product_cost_eur": 200.9,
+      "gross_profit_eur": 146.52,
+      "gross_margin_pct": 0.4217,
+      "net_units": 208,
+      "transactions": 149,
+      "average_basket_eur": 2.33,
+      "average_discount_pct": 0.1211,
+      "line_count": 167
+    },
+    {
+      "promotion_id": "PROMO005",
+      "promotion_name": "Colazione Conveniente",
+      "net_sales_eur": 321.45,
+      "product_cost_eur": 201.49,
+      "gross_profit_eur": 119.96,
+      "gross_margin_pct": 0.3732,
+      "net_units": 178,
+      "transactions": 132,
+      "average_basket_eur": 2.44,
+      "average_discount_pct": 0.1026,
+      "line_count": 147
+    },
+    {
+      "promotion_id": "PROMO009",
+      "promotion_name": "Rientro Pulito",
+      "net_sales_eur": 249.7,
+      "product_cost_eur": 169.82,
+      "gross_profit_eur": 79.88,
+      "gross_margin_pct": 0.3199,
+      "net_units": 98,
+      "transactions": 73,
+      "average_basket_eur": 3.42,
+      "average_discount_pct": 0.2231,
+      "line_count": 79
+    },
+    {
+      "promotion_id": "PROMO007",
+      "promotion_name": "Festa del Pane",
+      "net_sales_eur": 212.25,
+      "product_cost_eur": 110.79,
+      "gross_profit_eur": 101.46,
+      "gross_margin_pct": 0.478,
+      "net_units": 126,
+      "transactions": 100,
+      "average_basket_eur": 2.12,
+      "average_discount_pct": 0.1536,
+      "line_count": 107
+    },
+    {
+      "promotion_id": "PROMO010",
+      "promotion_name": "Benessere Autunno",
+      "net_sales_eur": 182.53,
+      "product_cost_eur": 116.38,
+      "gross_profit_eur": 66.15,
+      "gross_margin_pct": 0.3624,
+      "net_units": 70,
+      "transactions": 57,
+      "average_basket_eur": 3.2,
+      "average_discount_pct": 0.1815,
+      "line_count": 57
+    },
+    {
+      "promotion_id": "PROMO002",
+      "promotion_name": "San Valentino Dolci",
+      "net_sales_eur": 45.76,
+      "product_cost_eur": 28.72,
+      "gross_profit_eur": 17.04,
+      "gross_margin_pct": 0.3724,
+      "net_units": 28,
+      "transactions": 21,
+      "average_basket_eur": 2.18,
+      "average_discount_pct": 0.2,
+      "line_count": 22
+    },
+    {
+      "promotion_id": "PROMO014",
+      "promotion_name": "Weekend Arance",
+      "net_sales_eur": 12.72,
+      "product_cost_eur": 8.6,
+      "gross_profit_eur": 4.12,
+      "gross_margin_pct": 0.3239,
+      "net_units": 10,
+      "transactions": 9,
+      "average_basket_eur": 1.41,
+      "average_discount_pct": 0.25,
+      "line_count": 9
+    },
+    {
+      "promotion_id": "PROMO013",
+      "promotion_name": "Weekend Mozzarella",
+      "net_sales_eur": 8.2,
+      "product_cost_eur": 5.76,
+      "gross_profit_eur": 2.44,
+      "gross_margin_pct": 0.2976,
+      "net_units": 8,
+      "transactions": 7,
+      "average_basket_eur": 1.17,
+      "average_discount_pct": 0.2675,
+      "line_count": 7
+    }
+  ],
+  "target_summary": [
+    {
+      "store_id": "MV004",
+      "store_name": "MercatoVivo Lentini Etna",
+      "net_sales_eur": 16651.3,
+      "revenue_target_eur": 17756.38,
+      "variance_eur": -1105.08,
+      "variance_pct": -0.0622,
+      "months_above_target": 0
+    },
+    {
+      "store_id": "MV003",
+      "store_name": "MercatoVivo Ragusa Iblea",
+      "net_sales_eur": 19672.25,
+      "revenue_target_eur": 20313.42,
+      "variance_eur": -641.17,
+      "variance_pct": -0.0316,
+      "months_above_target": 0
+    },
+    {
+      "store_id": "MV001",
+      "store_name": "MercatoVivo Catania Centro",
+      "net_sales_eur": 26100.01,
+      "revenue_target_eur": 26273.45,
+      "variance_eur": -173.44,
+      "variance_pct": -0.0066,
+      "months_above_target": 4
+    },
+    {
+      "store_id": "MV002",
+      "store_name": "MercatoVivo Siracusa Aretusa",
+      "net_sales_eur": 22732.74,
+      "revenue_target_eur": 22608.37,
+      "variance_eur": 124.37,
+      "variance_pct": 0.0055,
+      "months_above_target": 7
+    },
+    {
+      "store_id": "MV005",
+      "store_name": "MercatoVivo Palermo Liberta",
+      "net_sales_eur": 29874.75,
+      "revenue_target_eur": 28993.98,
+      "variance_eur": 880.77,
+      "variance_pct": 0.0304,
+      "months_above_target": 12
+    }
+  ],
+  "target_comparison": [
+    {
+      "month": "2025-01",
+      "store_id": "MV001",
+      "store_name": "MercatoVivo Catania Centro",
+      "net_sales_eur": 1767.61,
+      "revenue_target_eur": 1781.53,
+      "variance_eur": -13.92,
+      "variance_pct": -0.0078
+    },
+    {
+      "month": "2025-01",
+      "store_id": "MV002",
+      "store_name": "MercatoVivo Siracusa Aretusa",
+      "net_sales_eur": 1309.98,
+      "revenue_target_eur": 1289.44,
+      "variance_eur": 20.54,
+      "variance_pct": 0.0159
+    },
+    {
+      "month": "2025-01",
+      "store_id": "MV003",
+      "store_name": "MercatoVivo Ragusa Iblea",
+      "net_sales_eur": 1483.96,
+      "revenue_target_eur": 1525.4,
+      "variance_eur": -41.44,
+      "variance_pct": -0.0272
+    },
+    {
+      "month": "2025-01",
+      "store_id": "MV004",
+      "store_name": "MercatoVivo Lentini Etna",
+      "net_sales_eur": 1202.51,
+      "revenue_target_eur": 1284.9,
+      "variance_eur": -82.39,
+      "variance_pct": -0.0641
+    },
+    {
+      "month": "2025-01",
+      "store_id": "MV005",
+      "store_name": "MercatoVivo Palermo Liberta",
+      "net_sales_eur": 1974.27,
+      "revenue_target_eur": 1893.3,
+      "variance_eur": 80.97,
+      "variance_pct": 0.0428
+    },
+    {
+      "month": "2025-02",
+      "store_id": "MV001",
+      "store_name": "MercatoVivo Catania Centro",
+      "net_sales_eur": 1817.24,
+      "revenue_target_eur": 1834.29,
+      "variance_eur": -17.05,
+      "variance_pct": -0.0093
+    },
+    {
+      "month": "2025-02",
+      "store_id": "MV002",
+      "store_name": "MercatoVivo Siracusa Aretusa",
+      "net_sales_eur": 1495.67,
+      "revenue_target_eur": 1496.5,
+      "variance_eur": -0.83,
+      "variance_pct": -0.0006
+    },
+    {
+      "month": "2025-02",
+      "store_id": "MV003",
+      "store_name": "MercatoVivo Ragusa Iblea",
+      "net_sales_eur": 944.51,
+      "revenue_target_eur": 967.8,
+      "variance_eur": -23.29,
+      "variance_pct": -0.0241
+    },
+    {
+      "month": "2025-02",
+      "store_id": "MV004",
+      "store_name": "MercatoVivo Lentini Etna",
+      "net_sales_eur": 1059.11,
+      "revenue_target_eur": 1142.63,
+      "variance_eur": -83.52,
+      "variance_pct": -0.0731
+    },
+    {
+      "month": "2025-02",
+      "store_id": "MV005",
+      "store_name": "MercatoVivo Palermo Liberta",
+      "net_sales_eur": 1978.72,
+      "revenue_target_eur": 1954.08,
+      "variance_eur": 24.64,
+      "variance_pct": 0.0126
+    },
+    {
+      "month": "2025-03",
+      "store_id": "MV001",
+      "store_name": "MercatoVivo Catania Centro",
+      "net_sales_eur": 2093.05,
+      "revenue_target_eur": 2082.39,
+      "variance_eur": 10.66,
+      "variance_pct": 0.0051
+    },
+    {
+      "month": "2025-03",
+      "store_id": "MV002",
+      "store_name": "MercatoVivo Siracusa Aretusa",
+      "net_sales_eur": 1700.37,
+      "revenue_target_eur": 1708.7,
+      "variance_eur": -8.33,
+      "variance_pct": -0.0049
+    },
+    {
+      "month": "2025-03",
+      "store_id": "MV003",
+      "store_name": "MercatoVivo Ragusa Iblea",
+      "net_sales_eur": 1533.9,
+      "revenue_target_eur": 1587.34,
+      "variance_eur": -53.44,
+      "variance_pct": -0.0337
+    },
+    {
+      "month": "2025-03",
+      "store_id": "MV004",
+      "store_name": "MercatoVivo Lentini Etna",
+      "net_sales_eur": 1352.91,
+      "revenue_target_eur": 1429.81,
+      "variance_eur": -76.9,
+      "variance_pct": -0.0538
+    },
+    {
+      "month": "2025-03",
+      "store_id": "MV005",
+      "store_name": "MercatoVivo Palermo Liberta",
+      "net_sales_eur": 2255.25,
+      "revenue_target_eur": 2201.41,
+      "variance_eur": 53.84,
+      "variance_pct": 0.0245
+    },
+    {
+      "month": "2025-04",
+      "store_id": "MV001",
+      "store_name": "MercatoVivo Catania Centro",
+      "net_sales_eur": 2008.92,
+      "revenue_target_eur": 2042.72,
+      "variance_eur": -33.8,
+      "variance_pct": -0.0165
+    },
+    {
+      "month": "2025-04",
+      "store_id": "MV002",
+      "store_name": "MercatoVivo Siracusa Aretusa",
+      "net_sales_eur": 1661.69,
+      "revenue_target_eur": 1660.82,
+      "variance_eur": 0.87,
+      "variance_pct": 0.0005
+    },
+    {
+      "month": "2025-04",
+      "store_id": "MV003",
+      "store_name": "MercatoVivo Ragusa Iblea",
+      "net_sales_eur": 1527.06,
+      "revenue_target_eur": 1594.5,
+      "variance_eur": -67.44,
+      "variance_pct": -0.0423
+    },
+    {
+      "month": "2025-04",
+      "store_id": "MV004",
+      "store_name": "MercatoVivo Lentini Etna",
+      "net_sales_eur": 1575.26,
+      "revenue_target_eur": 1715.28,
+      "variance_eur": -140.02,
+      "variance_pct": -0.0816
+    },
+    {
+      "month": "2025-04",
+      "store_id": "MV005",
+      "store_name": "MercatoVivo Palermo Liberta",
+      "net_sales_eur": 2545.98,
+      "revenue_target_eur": 2459.18,
+      "variance_eur": 86.8,
+      "variance_pct": 0.0353
+    },
+    {
+      "month": "2025-05",
+      "store_id": "MV001",
+      "store_name": "MercatoVivo Catania Centro",
+      "net_sales_eur": 2220.26,
+      "revenue_target_eur": 2214.02,
+      "variance_eur": 6.24,
+      "variance_pct": 0.0028
+    },
+    {
+      "month": "2025-05",
+      "store_id": "MV002",
+      "store_name": "MercatoVivo Siracusa Aretusa",
+      "net_sales_eur": 1776.2,
+      "revenue_target_eur": 1726.12,
+      "variance_eur": 50.08,
+      "variance_pct": 0.029
+    },
+    {
+      "month": "2025-05",
+      "store_id": "MV003",
+      "store_name": "MercatoVivo Ragusa Iblea",
+      "net_sales_eur": 1202.44,
+      "revenue_target_eur": 1259.73,
+      "variance_eur": -57.29,
+      "variance_pct": -0.0455
+    },
+    {
+      "month": "2025-05",
+      "store_id": "MV004",
+      "store_name": "MercatoVivo Lentini Etna",
+      "net_sales_eur": 1154.47,
+      "revenue_target_eur": 1211.09,
+      "variance_eur": -56.62,
+      "variance_pct": -0.0468
+    },
+    {
+      "month": "2025-05",
+      "store_id": "MV005",
+      "store_name": "MercatoVivo Palermo Liberta",
+      "net_sales_eur": 2475.42,
+      "revenue_target_eur": 2367.71,
+      "variance_eur": 107.71,
+      "variance_pct": 0.0455
+    },
+    {
+      "month": "2025-06",
+      "store_id": "MV001",
+      "store_name": "MercatoVivo Catania Centro",
+      "net_sales_eur": 2079.63,
+      "revenue_target_eur": 2135.71,
+      "variance_eur": -56.08,
+      "variance_pct": -0.0263
+    },
+    {
+      "month": "2025-06",
+      "store_id": "MV002",
+      "store_name": "MercatoVivo Siracusa Aretusa",
+      "net_sales_eur": 1945.19,
+      "revenue_target_eur": 1948.7,
+      "variance_eur": -3.51,
+      "variance_pct": -0.0018
+    },
+    {
+      "month": "2025-06",
+      "store_id": "MV003",
+      "store_name": "MercatoVivo Ragusa Iblea",
+      "net_sales_eur": 1735.03,
+      "revenue_target_eur": 1754.71,
+      "variance_eur": -19.68,
+      "variance_pct": -0.0112
+    },
+    {
+      "month": "2025-06",
+      "store_id": "MV004",
+      "store_name": "MercatoVivo Lentini Etna",
+      "net_sales_eur": 1381.48,
+      "revenue_target_eur": 1458.79,
+      "variance_eur": -77.31,
+      "variance_pct": -0.053
+    },
+    {
+      "month": "2025-06",
+      "store_id": "MV005",
+      "store_name": "MercatoVivo Palermo Liberta",
+      "net_sales_eur": 2504.55,
+      "revenue_target_eur": 2405.67,
+      "variance_eur": 98.88,
+      "variance_pct": 0.0411
+    },
+    {
+      "month": "2025-07",
+      "store_id": "MV001",
+      "store_name": "MercatoVivo Catania Centro",
+      "net_sales_eur": 2331.24,
+      "revenue_target_eur": 2343.95,
+      "variance_eur": -12.71,
+      "variance_pct": -0.0054
+    },
+    {
+      "month": "2025-07",
+      "store_id": "MV002",
+      "store_name": "MercatoVivo Siracusa Aretusa",
+      "net_sales_eur": 2193.38,
+      "revenue_target_eur": 2175.05,
+      "variance_eur": 18.33,
+      "variance_pct": 0.0084
+    },
+    {
+      "month": "2025-07",
+      "store_id": "MV003",
+      "store_name": "MercatoVivo Ragusa Iblea",
+      "net_sales_eur": 2282.55,
+      "revenue_target_eur": 2314.12,
+      "variance_eur": -31.57,
+      "variance_pct": -0.0136
+    },
+    {
+      "month": "2025-07",
+      "store_id": "MV004",
+      "store_name": "MercatoVivo Lentini Etna",
+      "net_sales_eur": 1710.53,
+      "revenue_target_eur": 1804.25,
+      "variance_eur": -93.72,
+      "variance_pct": -0.0519
+    },
+    {
+      "month": "2025-07",
+      "store_id": "MV005",
+      "store_name": "MercatoVivo Palermo Liberta",
+      "net_sales_eur": 2978.77,
+      "revenue_target_eur": 2914.73,
+      "variance_eur": 64.04,
+      "variance_pct": 0.022
+    },
+    {
+      "month": "2025-08",
+      "store_id": "MV001",
+      "store_name": "MercatoVivo Catania Centro",
+      "net_sales_eur": 2624.11,
+      "revenue_target_eur": 2675.52,
+      "variance_eur": -51.41,
+      "variance_pct": -0.0192
+    },
+    {
+      "month": "2025-08",
+      "store_id": "MV002",
+      "store_name": "MercatoVivo Siracusa Aretusa",
+      "net_sales_eur": 2252.11,
+      "revenue_target_eur": 2225.73,
+      "variance_eur": 26.38,
+      "variance_pct": 0.0119
+    },
+    {
+      "month": "2025-08",
+      "store_id": "MV003",
+      "store_name": "MercatoVivo Ragusa Iblea",
+      "net_sales_eur": 2396.49,
+      "revenue_target_eur": 2512.6,
+      "variance_eur": -116.11,
+      "variance_pct": -0.0462
+    },
+    {
+      "month": "2025-08",
+      "store_id": "MV004",
+      "store_name": "MercatoVivo Lentini Etna",
+      "net_sales_eur": 1701.23,
+      "revenue_target_eur": 1824.57,
+      "variance_eur": -123.34,
+      "variance_pct": -0.0676
+    },
+    {
+      "month": "2025-08",
+      "store_id": "MV005",
+      "store_name": "MercatoVivo Palermo Liberta",
+      "net_sales_eur": 3210.54,
+      "revenue_target_eur": 3142.53,
+      "variance_eur": 68.01,
+      "variance_pct": 0.0216
+    },
+    {
+      "month": "2025-09",
+      "store_id": "MV001",
+      "store_name": "MercatoVivo Catania Centro",
+      "net_sales_eur": 2147.68,
+      "revenue_target_eur": 2136.64,
+      "variance_eur": 11.04,
+      "variance_pct": 0.0052
+    },
+    {
+      "month": "2025-09",
+      "store_id": "MV002",
+      "store_name": "MercatoVivo Siracusa Aretusa",
+      "net_sales_eur": 2042.89,
+      "revenue_target_eur": 2058.09,
+      "variance_eur": -15.2,
+      "variance_pct": -0.0074
+    },
+    {
+      "month": "2025-09",
+      "store_id": "MV003",
+      "store_name": "MercatoVivo Ragusa Iblea",
+      "net_sales_eur": 1398.24,
+      "revenue_target_eur": 1442.79,
+      "variance_eur": -44.55,
+      "variance_pct": -0.0309
+    },
+    {
+      "month": "2025-09",
+      "store_id": "MV004",
+      "store_name": "MercatoVivo Lentini Etna",
+      "net_sales_eur": 1506.69,
+      "revenue_target_eur": 1594.29,
+      "variance_eur": -87.6,
+      "variance_pct": -0.0549
+    },
+    {
+      "month": "2025-09",
+      "store_id": "MV005",
+      "store_name": "MercatoVivo Palermo Liberta",
+      "net_sales_eur": 2357.03,
+      "revenue_target_eur": 2266.79,
+      "variance_eur": 90.24,
+      "variance_pct": 0.0398
+    },
+    {
+      "month": "2025-10",
+      "store_id": "MV001",
+      "store_name": "MercatoVivo Catania Centro",
+      "net_sales_eur": 1774.62,
+      "revenue_target_eur": 1783.11,
+      "variance_eur": -8.49,
+      "variance_pct": -0.0048
+    },
+    {
+      "month": "2025-10",
+      "store_id": "MV002",
+      "store_name": "MercatoVivo Siracusa Aretusa",
+      "net_sales_eur": 1585.44,
+      "revenue_target_eur": 1550.62,
+      "variance_eur": 34.82,
+      "variance_pct": 0.0225
+    },
+    {
+      "month": "2025-10",
+      "store_id": "MV003",
+      "store_name": "MercatoVivo Ragusa Iblea",
+      "net_sales_eur": 1641.36,
+      "revenue_target_eur": 1694.31,
+      "variance_eur": -52.95,
+      "variance_pct": -0.0313
+    },
+    {
+      "month": "2025-10",
+      "store_id": "MV004",
+      "store_name": "MercatoVivo Lentini Etna",
+      "net_sales_eur": 1124.84,
+      "revenue_target_eur": 1200.67,
+      "variance_eur": -75.83,
+      "variance_pct": -0.0632
+    },
+    {
+      "month": "2025-10",
+      "store_id": "MV005",
+      "store_name": "MercatoVivo Palermo Liberta",
+      "net_sales_eur": 2084.08,
+      "revenue_target_eur": 2052.83,
+      "variance_eur": 31.25,
+      "variance_pct": 0.0152
+    },
+    {
+      "month": "2025-11",
+      "store_id": "MV001",
+      "store_name": "MercatoVivo Catania Centro",
+      "net_sales_eur": 2485.77,
+      "revenue_target_eur": 2475.65,
+      "variance_eur": 10.12,
+      "variance_pct": 0.0041
+    },
+    {
+      "month": "2025-11",
+      "store_id": "MV002",
+      "store_name": "MercatoVivo Siracusa Aretusa",
+      "net_sales_eur": 1982.08,
+      "revenue_target_eur": 1961.72,
+      "variance_eur": 20.36,
+      "variance_pct": 0.0104
+    },
+    {
+      "month": "2025-11",
+      "store_id": "MV003",
+      "store_name": "MercatoVivo Ragusa Iblea",
+      "net_sales_eur": 1638.09,
+      "revenue_target_eur": 1696.98,
+      "variance_eur": -58.89,
+      "variance_pct": -0.0347
+    },
+    {
+      "month": "2025-11",
+      "store_id": "MV004",
+      "store_name": "MercatoVivo Lentini Etna",
+      "net_sales_eur": 1140.49,
+      "revenue_target_eur": 1223.07,
+      "variance_eur": -82.58,
+      "variance_pct": -0.0675
+    },
+    {
+      "month": "2025-11",
+      "store_id": "MV005",
+      "store_name": "MercatoVivo Palermo Liberta",
+      "net_sales_eur": 2584.43,
+      "revenue_target_eur": 2485.56,
+      "variance_eur": 98.87,
+      "variance_pct": 0.0398
+    },
+    {
+      "month": "2025-12",
+      "store_id": "MV001",
+      "store_name": "MercatoVivo Catania Centro",
+      "net_sales_eur": 2749.88,
+      "revenue_target_eur": 2767.92,
+      "variance_eur": -18.04,
+      "variance_pct": -0.0065
+    },
+    {
+      "month": "2025-12",
+      "store_id": "MV002",
+      "store_name": "MercatoVivo Siracusa Aretusa",
+      "net_sales_eur": 2787.74,
+      "revenue_target_eur": 2806.88,
+      "variance_eur": -19.14,
+      "variance_pct": -0.0068
+    },
+    {
+      "month": "2025-12",
+      "store_id": "MV003",
+      "store_name": "MercatoVivo Ragusa Iblea",
+      "net_sales_eur": 1888.62,
+      "revenue_target_eur": 1963.14,
+      "variance_eur": -74.52,
+      "variance_pct": -0.038
+    },
+    {
+      "month": "2025-12",
+      "store_id": "MV004",
+      "store_name": "MercatoVivo Lentini Etna",
+      "net_sales_eur": 1741.78,
+      "revenue_target_eur": 1867.03,
+      "variance_eur": -125.25,
+      "variance_pct": -0.0671
+    },
+    {
+      "month": "2025-12",
+      "store_id": "MV005",
+      "store_name": "MercatoVivo Palermo Liberta",
+      "net_sales_eur": 2925.71,
+      "revenue_target_eur": 2850.19,
+      "variance_eur": 75.52,
+      "variance_pct": 0.0265
+    }
+  ],
+  "inventory_by_store": [
+    {
+      "store_id": "MV004",
+      "store_name": "MercatoVivo Lentini Etna",
+      "waste_units": 2782,
+      "waste_cost_eur": 4316.44,
+      "waste_rate_pct": 0.0403,
+      "stockout_days": 296
+    },
+    {
+      "store_id": "MV003",
+      "store_name": "MercatoVivo Ragusa Iblea",
+      "waste_units": 2242,
+      "waste_cost_eur": 3510.04,
+      "waste_rate_pct": 0.0319,
+      "stockout_days": 0
+    },
+    {
+      "store_id": "MV005",
+      "store_name": "MercatoVivo Palermo Liberta",
+      "waste_units": 2123,
+      "waste_cost_eur": 3311.83,
+      "waste_rate_pct": 0.0295,
+      "stockout_days": 0
+    },
+    {
+      "store_id": "MV001",
+      "store_name": "MercatoVivo Catania Centro",
+      "waste_units": 2077,
+      "waste_cost_eur": 3214.78,
+      "waste_rate_pct": 0.0295,
+      "stockout_days": 0
+    },
+    {
+      "store_id": "MV002",
+      "store_name": "MercatoVivo Siracusa Aretusa",
+      "waste_units": 2090,
+      "waste_cost_eur": 3211.33,
+      "waste_rate_pct": 0.0298,
+      "stockout_days": 0
+    }
+  ],
+  "inventory_by_store_category": [
+    {
+      "store_id": "MV001",
+      "store_name": "MercatoVivo Catania Centro",
+      "category": "Pantry",
+      "waste_units": 210,
+      "waste_cost_eur": 381.84,
+      "waste_rate_pct": 0.0165,
+      "stockout_days": 0
+    },
+    {
+      "store_id": "MV001",
+      "store_name": "MercatoVivo Catania Centro",
+      "category": "Bakery",
+      "waste_units": 286,
+      "waste_cost_eur": 239.62,
+      "waste_rate_pct": 0.0507,
+      "stockout_days": 0
+    },
+    {
+      "store_id": "MV001",
+      "store_name": "MercatoVivo Catania Centro",
+      "category": "Dairy",
+      "waste_units": 362,
+      "waste_cost_eur": 462.61,
+      "waste_rate_pct": 0.0533,
+      "stockout_days": 0
+    },
+    {
+      "store_id": "MV001",
+      "store_name": "MercatoVivo Catania Centro",
+      "category": "Fresh Produce",
+      "waste_units": 359,
+      "waste_cost_eur": 351.98,
+      "waste_rate_pct": 0.0526,
+      "stockout_days": 0
+    },
+    {
+      "store_id": "MV001",
+      "store_name": "MercatoVivo Catania Centro",
+      "category": "Meat & Seafood",
+      "waste_units": 288,
+      "waste_cost_eur": 928.75,
+      "waste_rate_pct": 0.057,
+      "stockout_days": 0
+    },
+    {
+      "store_id": "MV001",
+      "store_name": "MercatoVivo Catania Centro",
+      "category": "Beverages",
+      "waste_units": 180,
+      "waste_cost_eur": 283.82,
+      "waste_rate_pct": 0.0168,
+      "stockout_days": 0
+    },
+    {
+      "store_id": "MV001",
+      "store_name": "MercatoVivo Catania Centro",
+      "category": "Household",
+      "waste_units": 170,
+      "waste_cost_eur": 263.1,
+      "waste_rate_pct": 0.0168,
+      "stockout_days": 0
+    },
+    {
+      "store_id": "MV001",
+      "store_name": "MercatoVivo Catania Centro",
+      "category": "Personal Care",
+      "waste_units": 142,
+      "waste_cost_eur": 222.34,
+      "waste_rate_pct": 0.0172,
+      "stockout_days": 0
+    },
+    {
+      "store_id": "MV001",
+      "store_name": "MercatoVivo Catania Centro",
+      "category": "Snacks",
+      "waste_units": 80,
+      "waste_cost_eur": 80.72,
+      "waste_rate_pct": 0.019,
+      "stockout_days": 0
+    },
+    {
+      "store_id": "MV002",
+      "store_name": "MercatoVivo Siracusa Aretusa",
+      "category": "Pantry",
+      "waste_units": 211,
+      "waste_cost_eur": 382.8,
+      "waste_rate_pct": 0.0167,
+      "stockout_days": 0
+    },
+    {
+      "store_id": "MV002",
+      "store_name": "MercatoVivo Siracusa Aretusa",
+      "category": "Bakery",
+      "waste_units": 286,
+      "waste_cost_eur": 244.39,
+      "waste_rate_pct": 0.053,
+      "stockout_days": 0
+    },
+    {
+      "store_id": "MV002",
+      "store_name": "MercatoVivo Siracusa Aretusa",
+      "category": "Dairy",
+      "waste_units": 376,
+      "waste_cost_eur": 481.61,
+      "waste_rate_pct": 0.0541,
+      "stockout_days": 0
+    },
+    {
+      "store_id": "MV002",
+      "store_name": "MercatoVivo Siracusa Aretusa",
+      "category": "Fresh Produce",
+      "waste_units": 362,
+      "waste_cost_eur": 356.26,
+      "waste_rate_pct": 0.0538,
+      "stockout_days": 0
+    },
+    {
+      "store_id": "MV002",
+      "store_name": "MercatoVivo Siracusa Aretusa",
+      "category": "Meat & Seafood",
+      "waste_units": 286,
+      "waste_cost_eur": 903.2,
+      "waste_rate_pct": 0.0564,
+      "stockout_days": 0
+    },
+    {
+      "store_id": "MV002",
+      "store_name": "MercatoVivo Siracusa Aretusa",
+      "category": "Beverages",
+      "waste_units": 182,
+      "waste_cost_eur": 277.56,
+      "waste_rate_pct": 0.0178,
+      "stockout_days": 0
+    },
+    {
+      "store_id": "MV002",
+      "store_name": "MercatoVivo Siracusa Aretusa",
+      "category": "Household",
+      "waste_units": 183,
+      "waste_cost_eur": 286.07,
+      "waste_rate_pct": 0.0178,
+      "stockout_days": 0
+    },
+    {
+      "store_id": "MV002",
+      "store_name": "MercatoVivo Siracusa Aretusa",
+      "category": "Personal Care",
+      "waste_units": 126,
+      "waste_cost_eur": 200.72,
+      "waste_rate_pct": 0.0146,
+      "stockout_days": 0
+    },
+    {
+      "store_id": "MV002",
+      "store_name": "MercatoVivo Siracusa Aretusa",
+      "category": "Snacks",
+      "waste_units": 78,
+      "waste_cost_eur": 78.72,
+      "waste_rate_pct": 0.0183,
+      "stockout_days": 0
+    },
+    {
+      "store_id": "MV003",
+      "store_name": "MercatoVivo Ragusa Iblea",
+      "category": "Pantry",
+      "waste_units": 214,
+      "waste_cost_eur": 407.5,
+      "waste_rate_pct": 0.0169,
+      "stockout_days": 0
+    },
+    {
+      "store_id": "MV003",
+      "store_name": "MercatoVivo Ragusa Iblea",
+      "category": "Bakery",
+      "waste_units": 322,
+      "waste_cost_eur": 273.61,
+      "waste_rate_pct": 0.0586,
+      "stockout_days": 0
+    },
+    {
+      "store_id": "MV003",
+      "store_name": "MercatoVivo Ragusa Iblea",
+      "category": "Dairy",
+      "waste_units": 387,
+      "waste_cost_eur": 500.62,
+      "waste_rate_pct": 0.0576,
+      "stockout_days": 0
+    },
+    {
+      "store_id": "MV003",
+      "store_name": "MercatoVivo Ragusa Iblea",
+      "category": "Fresh Produce",
+      "waste_units": 408,
+      "waste_cost_eur": 401.12,
+      "waste_rate_pct": 0.0603,
+      "stockout_days": 0
+    },
+    {
+      "store_id": "MV003",
+      "store_name": "MercatoVivo Ragusa Iblea",
+      "category": "Meat & Seafood",
+      "waste_units": 325,
+      "waste_cost_eur": 1026.25,
+      "waste_rate_pct": 0.0652,
+      "stockout_days": 0
+    },
+    {
+      "store_id": "MV003",
+      "store_name": "MercatoVivo Ragusa Iblea",
+      "category": "Beverages",
+      "waste_units": 180,
+      "waste_cost_eur": 279.79,
+      "waste_rate_pct": 0.0171,
+      "stockout_days": 0
+    },
+    {
+      "store_id": "MV003",
+      "store_name": "MercatoVivo Ragusa Iblea",
+      "category": "Household",
+      "waste_units": 182,
+      "waste_cost_eur": 296.15,
+      "waste_rate_pct": 0.0172,
+      "stockout_days": 0
+    },
+    {
+      "store_id": "MV003",
+      "store_name": "MercatoVivo Ragusa Iblea",
+      "category": "Personal Care",
+      "waste_units": 157,
+      "waste_cost_eur": 257.1,
+      "waste_rate_pct": 0.0184,
+      "stockout_days": 0
+    },
+    {
+      "store_id": "MV003",
+      "store_name": "MercatoVivo Ragusa Iblea",
+      "category": "Snacks",
+      "waste_units": 67,
+      "waste_cost_eur": 67.9,
+      "waste_rate_pct": 0.0161,
+      "stockout_days": 0
+    },
+    {
+      "store_id": "MV004",
+      "store_name": "MercatoVivo Lentini Etna",
+      "category": "Pantry",
+      "waste_units": 247,
+      "waste_cost_eur": 438.77,
+      "waste_rate_pct": 0.0202,
+      "stockout_days": 47
+    },
+    {
+      "store_id": "MV004",
+      "store_name": "MercatoVivo Lentini Etna",
+      "category": "Bakery",
+      "waste_units": 423,
+      "waste_cost_eur": 360.93,
+      "waste_rate_pct": 0.0811,
+      "stockout_days": 44
+    },
+    {
+      "store_id": "MV004",
+      "store_name": "MercatoVivo Lentini Etna",
+      "category": "Dairy",
+      "waste_units": 532,
+      "waste_cost_eur": 702.82,
+      "waste_rate_pct": 0.0806,
+      "stockout_days": 53
+    },
+    {
+      "store_id": "MV004",
+      "store_name": "MercatoVivo Lentini Etna",
+      "category": "Fresh Produce",
+      "waste_units": 528,
+      "waste_cost_eur": 520.06,
+      "waste_rate_pct": 0.0811,
+      "stockout_days": 53
+    },
+    {
+      "store_id": "MV004",
+      "store_name": "MercatoVivo Lentini Etna",
+      "category": "Meat & Seafood",
+      "waste_units": 422,
+      "waste_cost_eur": 1337.41,
+      "waste_rate_pct": 0.0809,
+      "stockout_days": 13
+    },
+    {
+      "store_id": "MV004",
+      "store_name": "MercatoVivo Lentini Etna",
+      "category": "Beverages",
+      "waste_units": 194,
+      "waste_cost_eur": 309.58,
+      "waste_rate_pct": 0.0187,
+      "stockout_days": 38
+    },
+    {
+      "store_id": "MV004",
+      "store_name": "MercatoVivo Lentini Etna",
+      "category": "Household",
+      "waste_units": 202,
+      "waste_cost_eur": 320.07,
+      "waste_rate_pct": 0.0197,
+      "stockout_days": 19
+    },
+    {
+      "store_id": "MV004",
+      "store_name": "MercatoVivo Lentini Etna",
+      "category": "Personal Care",
+      "waste_units": 156,
+      "waste_cost_eur": 248.08,
+      "waste_rate_pct": 0.0185,
+      "stockout_days": 12
+    },
+    {
+      "store_id": "MV004",
+      "store_name": "MercatoVivo Lentini Etna",
+      "category": "Snacks",
+      "waste_units": 78,
+      "waste_cost_eur": 78.72,
+      "waste_rate_pct": 0.0183,
+      "stockout_days": 17
+    },
+    {
+      "store_id": "MV005",
+      "store_name": "MercatoVivo Palermo Liberta",
+      "category": "Pantry",
+      "waste_units": 218,
+      "waste_cost_eur": 414.92,
+      "waste_rate_pct": 0.0167,
+      "stockout_days": 0
+    },
+    {
+      "store_id": "MV005",
+      "store_name": "MercatoVivo Palermo Liberta",
+      "category": "Bakery",
+      "waste_units": 298,
+      "waste_cost_eur": 255.04,
+      "waste_rate_pct": 0.051,
+      "stockout_days": 0
+    },
+    {
+      "store_id": "MV005",
+      "store_name": "MercatoVivo Palermo Liberta",
+      "category": "Dairy",
+      "waste_units": 379,
+      "waste_cost_eur": 490.1,
+      "waste_rate_pct": 0.053,
+      "stockout_days": 0
+    },
+    {
+      "store_id": "MV005",
+      "store_name": "MercatoVivo Palermo Liberta",
+      "category": "Fresh Produce",
+      "waste_units": 369,
+      "waste_cost_eur": 361.14,
+      "waste_rate_pct": 0.0513,
+      "stockout_days": 0
+    },
+    {
+      "store_id": "MV005",
+      "store_name": "MercatoVivo Palermo Liberta",
+      "category": "Meat & Seafood",
+      "waste_units": 295,
+      "waste_cost_eur": 936.58,
+      "waste_rate_pct": 0.0555,
+      "stockout_days": 0
+    },
+    {
+      "store_id": "MV005",
+      "store_name": "MercatoVivo Palermo Liberta",
+      "category": "Beverages",
+      "waste_units": 178,
+      "waste_cost_eur": 279.52,
+      "waste_rate_pct": 0.0168,
+      "stockout_days": 0
+    },
+    {
+      "store_id": "MV005",
+      "store_name": "MercatoVivo Palermo Liberta",
+      "category": "Household",
+      "waste_units": 176,
+      "waste_cost_eur": 290.47,
+      "waste_rate_pct": 0.0173,
+      "stockout_days": 0
+    },
+    {
+      "store_id": "MV005",
+      "store_name": "MercatoVivo Palermo Liberta",
+      "category": "Personal Care",
+      "waste_units": 143,
+      "waste_cost_eur": 217.24,
+      "waste_rate_pct": 0.017,
+      "stockout_days": 0
+    },
+    {
+      "store_id": "MV005",
+      "store_name": "MercatoVivo Palermo Liberta",
+      "category": "Snacks",
+      "waste_units": 67,
+      "waste_cost_eur": 66.82,
+      "waste_rate_pct": 0.0155,
+      "stockout_days": 0
+    }
+  ],
+  "store_category_exceptions": [
+    {
+      "store_id": "MV004",
+      "category": "Pantry",
+      "net_sales_eur": 2782.16,
+      "product_cost_eur": 1652.33,
+      "gross_profit_eur": 1129.83,
+      "gross_margin_pct": 0.4061,
+      "net_units": 1135,
+      "transactions": 762,
+      "average_basket_eur": 3.65,
+      "average_discount_pct": 0.0152,
+      "line_count": 920,
+      "store_name": "MercatoVivo Lentini Etna",
+      "margin_gap_vs_chain_pp": -5.78,
+      "category_margin_pct": 0.4186
+    },
+    {
+      "store_id": "MV002",
+      "category": "Pantry",
+      "net_sales_eur": 3671.45,
+      "product_cost_eur": 2147.86,
+      "gross_profit_eur": 1523.59,
+      "gross_margin_pct": 0.415,
+      "net_units": 1524,
+      "transactions": 1010,
+      "average_basket_eur": 3.64,
+      "average_discount_pct": 0.0137,
+      "line_count": 1227,
+      "store_name": "MercatoVivo Siracusa Aretusa",
+      "margin_gap_vs_chain_pp": -4.89,
+      "category_margin_pct": 0.4186
+    },
+    {
+      "store_id": "MV004",
+      "category": "Meat & Seafood",
+      "net_sales_eur": 2537.16,
+      "product_cost_eur": 1482.17,
+      "gross_profit_eur": 1054.99,
+      "gross_margin_pct": 0.4158,
+      "net_units": 518,
+      "transactions": 378,
+      "average_basket_eur": 6.71,
+      "average_discount_pct": 0.0114,
+      "line_count": 413,
+      "store_name": "MercatoVivo Lentini Etna",
+      "margin_gap_vs_chain_pp": -4.81,
+      "category_margin_pct": 0.4216
+    },
+    {
+      "store_id": "MV001",
+      "category": "Meat & Seafood",
+      "net_sales_eur": 3995.77,
+      "product_cost_eur": 2321.2,
+      "gross_profit_eur": 1674.57,
+      "gross_margin_pct": 0.4191,
+      "net_units": 799,
+      "transactions": 611,
+      "average_basket_eur": 6.54,
+      "average_discount_pct": 0.0133,
+      "line_count": 655,
+      "store_name": "MercatoVivo Catania Centro",
+      "margin_gap_vs_chain_pp": -4.48,
+      "category_margin_pct": 0.4216
+    },
+    {
+      "store_id": "MV002",
+      "category": "Meat & Seafood",
+      "net_sales_eur": 3697.21,
+      "product_cost_eur": 2139.86,
+      "gross_profit_eur": 1557.35,
+      "gross_margin_pct": 0.4212,
+      "net_units": 732,
+      "transactions": 528,
+      "average_basket_eur": 7,
+      "average_discount_pct": 0.0086,
+      "line_count": 582,
+      "store_name": "MercatoVivo Siracusa Aretusa",
+      "margin_gap_vs_chain_pp": -4.27,
+      "category_margin_pct": 0.4216
+    },
+    {
+      "store_id": "MV005",
+      "category": "Pantry",
+      "net_sales_eur": 5157.53,
+      "product_cost_eur": 2982.48,
+      "gross_profit_eur": 2175.05,
+      "gross_margin_pct": 0.4217,
+      "net_units": 2101,
+      "transactions": 1375,
+      "average_basket_eur": 3.75,
+      "average_discount_pct": 0.0178,
+      "line_count": 1696,
+      "store_name": "MercatoVivo Palermo Liberta",
+      "margin_gap_vs_chain_pp": -4.22,
+      "category_margin_pct": 0.4186
+    },
+    {
+      "store_id": "MV001",
+      "category": "Pantry",
+      "net_sales_eur": 4198.76,
+      "product_cost_eur": 2426.99,
+      "gross_profit_eur": 1771.77,
+      "gross_margin_pct": 0.422,
+      "net_units": 1783,
+      "transactions": 1149,
+      "average_basket_eur": 3.65,
+      "average_discount_pct": 0.012,
+      "line_count": 1428,
+      "store_name": "MercatoVivo Catania Centro",
+      "margin_gap_vs_chain_pp": -4.19,
+      "category_margin_pct": 0.4186
+    },
+    {
+      "store_id": "MV003",
+      "category": "Meat & Seafood",
+      "net_sales_eur": 3100.58,
+      "product_cost_eur": 1791.37,
+      "gross_profit_eur": 1309.21,
+      "gross_margin_pct": 0.4222,
+      "net_units": 618,
+      "transactions": 452,
+      "average_basket_eur": 6.86,
+      "average_discount_pct": 0.0093,
+      "line_count": 484,
+      "store_name": "MercatoVivo Ragusa Iblea",
+      "margin_gap_vs_chain_pp": -4.17,
+      "category_margin_pct": 0.4216
+    },
+    {
+      "store_id": "MV003",
+      "category": "Pantry",
+      "net_sales_eur": 3155.98,
+      "product_cost_eur": 1816.24,
+      "gross_profit_eur": 1339.74,
+      "gross_margin_pct": 0.4245,
+      "net_units": 1355,
+      "transactions": 908,
+      "average_basket_eur": 3.48,
+      "average_discount_pct": 0.0097,
+      "line_count": 1089,
+      "store_name": "MercatoVivo Ragusa Iblea",
+      "margin_gap_vs_chain_pp": -3.94,
+      "category_margin_pct": 0.4186
+    },
+    {
+      "store_id": "MV005",
+      "category": "Meat & Seafood",
+      "net_sales_eur": 4620.81,
+      "product_cost_eur": 2649.11,
+      "gross_profit_eur": 1971.7,
+      "gross_margin_pct": 0.4267,
+      "net_units": 910,
+      "transactions": 686,
+      "average_basket_eur": 6.74,
+      "average_discount_pct": 0.0139,
+      "line_count": 741,
+      "store_name": "MercatoVivo Palermo Liberta",
+      "margin_gap_vs_chain_pp": -3.72,
+      "category_margin_pct": 0.4216
+    },
+    {
+      "store_id": "MV004",
+      "category": "Dairy",
+      "net_sales_eur": 1906.18,
+      "product_cost_eur": 1088.07,
+      "gross_profit_eur": 818.11,
+      "gross_margin_pct": 0.4292,
+      "net_units": 979,
+      "transactions": 646,
+      "average_basket_eur": 2.95,
+      "average_discount_pct": 0.0038,
+      "line_count": 783,
+      "store_name": "MercatoVivo Lentini Etna",
+      "margin_gap_vs_chain_pp": -3.47,
+      "category_margin_pct": 0.4361
+    },
+    {
+      "store_id": "MV003",
+      "category": "Dairy",
+      "net_sales_eur": 2371.67,
+      "product_cost_eur": 1342,
+      "gross_profit_eur": 1029.67,
+      "gross_margin_pct": 0.4342,
+      "net_units": 1202,
+      "transactions": 830,
+      "average_basket_eur": 2.86,
+      "average_discount_pct": 0.0033,
+      "line_count": 976,
+      "store_name": "MercatoVivo Ragusa Iblea",
+      "margin_gap_vs_chain_pp": -2.97,
+      "category_margin_pct": 0.4361
+    },
+    {
+      "store_id": "MV001",
+      "category": "Dairy",
+      "net_sales_eur": 3192.89,
+      "product_cost_eur": 1805.73,
+      "gross_profit_eur": 1387.16,
+      "gross_margin_pct": 0.4345,
+      "net_units": 1650,
+      "transactions": 1109,
+      "average_basket_eur": 2.88,
+      "average_discount_pct": 0.005,
+      "line_count": 1312,
+      "store_name": "MercatoVivo Catania Centro",
+      "margin_gap_vs_chain_pp": -2.94,
+      "category_margin_pct": 0.4361
+    },
+    {
+      "store_id": "MV002",
+      "category": "Dairy",
+      "net_sales_eur": 2833.32,
+      "product_cost_eur": 1600.12,
+      "gross_profit_eur": 1233.2,
+      "gross_margin_pct": 0.4352,
+      "net_units": 1473,
+      "transactions": 969,
+      "average_basket_eur": 2.92,
+      "average_discount_pct": 0.0056,
+      "line_count": 1168,
+      "store_name": "MercatoVivo Siracusa Aretusa",
+      "margin_gap_vs_chain_pp": -2.87,
+      "category_margin_pct": 0.4361
+    },
+    {
+      "store_id": "MV005",
+      "category": "Dairy",
+      "net_sales_eur": 3471.16,
+      "product_cost_eur": 1932.04,
+      "gross_profit_eur": 1539.12,
+      "gross_margin_pct": 0.4434,
+      "net_units": 1817,
+      "transactions": 1236,
+      "average_basket_eur": 2.81,
+      "average_discount_pct": 0.0081,
+      "line_count": 1467,
+      "store_name": "MercatoVivo Palermo Liberta",
+      "margin_gap_vs_chain_pp": -2.05,
+      "category_margin_pct": 0.4361
+    }
+  ],
+  "product_exceptions": [
+    {
+      "product_id_clean": "PR004",
+      "product_name": "Olio extra vergine 1L",
+      "category": "Pantry",
+      "net_sales_eur": 6142.93,
+      "product_cost_eur": 4118.85,
+      "gross_profit_eur": 2024.08,
+      "gross_margin_pct": 0.3295,
+      "net_units": 729,
+      "transactions": 586,
+      "average_basket_eur": 10.48,
+      "average_discount_pct": 0.0103,
+      "line_count": 586,
+      "category_margin_pct": 0.4186,
+      "category_stockout_days": 47
+    },
+    {
+      "product_id_clean": "PR014",
+      "product_name": "Parmigiano Reggiano 200g",
+      "category": "Dairy",
+      "net_sales_eur": 4077.26,
+      "product_cost_eur": 2513.4,
+      "gross_profit_eur": 1563.86,
+      "gross_margin_pct": 0.3836,
+      "net_units": 852,
+      "transactions": 679,
+      "average_basket_eur": 6,
+      "average_discount_pct": 0.0027,
+      "line_count": 679,
+      "category_margin_pct": 0.4361,
+      "category_stockout_days": 53
+    },
+    {
+      "product_id_clean": "PR023",
+      "product_name": "Orata fresca 400g",
+      "category": "Meat & Seafood",
+      "net_sales_eur": 4304.7,
+      "product_cost_eur": 2628.7,
+      "gross_profit_eur": 1676,
+      "gross_margin_pct": 0.3893,
+      "net_units": 542,
+      "transactions": 440,
+      "average_basket_eur": 9.78,
+      "average_discount_pct": 0.009,
+      "line_count": 440,
+      "category_margin_pct": 0.4216,
+      "category_stockout_days": 13
+    },
+    {
+      "product_id_clean": "PR021",
+      "product_name": "Petto di pollo 500g",
+      "category": "Meat & Seafood",
+      "net_sales_eur": 5766.07,
+      "product_cost_eur": 3373.45,
+      "gross_profit_eur": 2392.62,
+      "gross_margin_pct": 0.4149,
+      "net_units": 1007,
+      "transactions": 816,
+      "average_basket_eur": 7.07,
+      "average_discount_pct": 0.0131,
+      "line_count": 816,
+      "category_margin_pct": 0.4216,
+      "category_stockout_days": 13
+    },
+    {
+      "product_id_clean": "PR015",
+      "product_name": "Burro 250g",
+      "category": "Dairy",
+      "net_sales_eur": 2100.79,
+      "product_cost_eur": 1215.84,
+      "gross_profit_eur": 884.95,
+      "gross_margin_pct": 0.4212,
+      "net_units": 894,
+      "transactions": 742,
+      "average_basket_eur": 2.83,
+      "average_discount_pct": 0.0032,
+      "line_count": 742,
+      "category_margin_pct": 0.4361,
+      "category_stockout_days": 53
+    },
+    {
+      "product_id_clean": "PR025",
+      "product_name": "Acqua minerale 6x1.5L",
+      "category": "Beverages",
+      "net_sales_eur": 2699.07,
+      "product_cost_eur": 1556.28,
+      "gross_profit_eur": 1142.79,
+      "gross_margin_pct": 0.4234,
+      "net_units": 1441,
+      "transactions": 1181,
+      "average_basket_eur": 2.29,
+      "average_discount_pct": 0.0111,
+      "line_count": 1181,
+      "category_margin_pct": 0.4758,
+      "category_stockout_days": 38
+    },
+    {
+      "product_id_clean": "PR011",
+      "product_name": "Latte intero 1L",
+      "category": "Dairy",
+      "net_sales_eur": 2730.04,
+      "product_cost_eur": 1559.46,
+      "gross_profit_eur": 1170.58,
+      "gross_margin_pct": 0.4288,
+      "net_units": 1974,
+      "transactions": 1594,
+      "average_basket_eur": 1.71,
+      "average_discount_pct": 0.0077,
+      "line_count": 1594,
+      "category_margin_pct": 0.4361,
+      "category_stockout_days": 53
+    },
+    {
+      "product_id_clean": "PR022",
+      "product_name": "Salsiccia siciliana 400g",
+      "category": "Meat & Seafood",
+      "net_sales_eur": 4676.25,
+      "product_cost_eur": 2627.1,
+      "gross_profit_eur": 2049.15,
+      "gross_margin_pct": 0.4382,
+      "net_units": 945,
+      "transactions": 761,
+      "average_basket_eur": 6.14,
+      "average_discount_pct": 0.0101,
+      "line_count": 761,
+      "category_margin_pct": 0.4216,
+      "category_stockout_days": 13
+    },
+    {
+      "product_id_clean": "PR030",
+      "product_name": "Detersivo lavatrice 30 lavaggi",
+      "category": "Household",
+      "net_sales_eur": 4256.84,
+      "product_cost_eur": 2360.05,
+      "gross_profit_eur": 1896.79,
+      "gross_margin_pct": 0.4456,
+      "net_units": 613,
+      "transactions": 491,
+      "average_basket_eur": 8.67,
+      "average_discount_pct": 0.0092,
+      "line_count": 491,
+      "category_margin_pct": 0.4704,
+      "category_stockout_days": 19
+    },
+    {
+      "product_id_clean": "PR019",
+      "product_name": "Banane 1kg",
+      "category": "Fresh Produce",
+      "net_sales_eur": 3208.9,
+      "product_cost_eur": 1759.1,
+      "gross_profit_eur": 1449.8,
+      "gross_margin_pct": 0.4518,
+      "net_units": 1795,
+      "transactions": 1470,
+      "average_basket_eur": 2.18,
+      "average_discount_pct": 0.0035,
+      "line_count": 1470,
+      "category_margin_pct": 0.4933,
+      "category_stockout_days": 53
+    }
+  ]
+}

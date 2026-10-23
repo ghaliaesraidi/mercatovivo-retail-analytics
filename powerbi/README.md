@@ -1,13 +1,16 @@
-# Power BI Build Specification
+# Power BI build specification
 
-Begin this phase only after SQL quality checks and KPI reconciliation are complete.
+**Status:** semantic-model and dashboard specification complete; `.pbix` not included.
+
+The validated SQL outputs and static dashboard preview define the expected Power BI results. Build the report only from the `analytics` views created by `sql/03_clean_views.sql`, then reconcile each headline measure to `output/analysis_results.json`.
 
 ## Model
 
-- Build the star schema in [`docs/data_model.md`](../docs/data_model.md).
+- Use the star schema in [`docs/data_model.md`](../docs/data_model.md).
 - Create a continuous date table and mark it as a date table.
-- Use one-directional one-to-many relationships from dimensions to facts.
-- Hide technical keys from report view after validation.
+- Use one-directional, one-to-many relationships from dimensions to facts.
+- Keep `fact_sales`, `fact_inventory`, and `fact_targets` separate.
+- Hide technical keys after validating every relationship.
 - Put explicit DAX measures in a dedicated measure table.
 
 ## Required measures
@@ -40,11 +43,14 @@ Follow [`docs/dashboard_brief.md`](../docs/dashboard_brief.md):
 3. Promotions and customers
 4. Waste and availability
 
-## Reconciliation tests
+## Reconciliation controls
 
-- Power BI total net sales equals the accepted SQL total.
-- Store totals sum to chain total for additive measures.
-- Distinct transaction count is not multiplied by item joins.
-- Margin percentage is calculated from aggregated profit and sales, not averaged row percentages.
-- Target percentages behave correctly across months and stores.
+- Net Sales = €115,031.05
+- Gross Profit = €53,360.74
+- Gross Margin = 46.39%
+- Transactions = 12,000
+- Net Units = 46,318
+- Average Basket Value = €9.59
+
+Store totals must sum to the chain total for additive measures. Distinct transaction count must not be multiplied by item joins. Margin percentage must use aggregated profit divided by aggregated sales rather than an average of row-level percentages.
 
